@@ -1,0 +1,453 @@
+,Unnamed: 0,Kind,Name,CountLine,CountLineCode,CountLineBlank,CountLineComment,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclClassMethod,CountDeclClassVariable,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,MaxInheritanceTree,PercentLackOfCohesion,Fault
+0,310,Public Class,com.android.mms.ContentRestrictionException,18,12,3,3,1.0,0.0,3.0,0.0,1.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+1,314,Public Class,com.android.mms.ExceedMessageSizeException,14,9,2,3,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,5.0,0.0,0.0,0.0,2.0,3.0,0.0,0
+2,317,Public Class,com.android.mms.InterceptSendSms,106,70,18,19,1.0,4.0,0.0,0.0,4.0,4.0,5.0,4.0,4.0,0.0,0.0,2.0,2.0,2.0,77.0,0
+3,319,Public Class,com.android.mms.InterceptSendSms.InterceptSmsReceiver,24,14,3,7,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+4,321,Class,com.android.mms.InterceptSendSms.sendMms,19,15,3,1,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+5,326,Public Class,com.android.mms.LogTag,102,85,13,9,1.0,0.0,0.0,7.0,15.0,0.0,0.0,7.0,7.0,0.0,2.0,0.0,5.0,1.0,0.0,0
+6,329,Anonymous Class,com.android.mms.LogTag.dumpInternalTables.(Anon_1),9,9,0,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+7,336,Anonymous Class,com.android.mms.LogTag.warnPossibleRecipientMismatch.(Anon_2),13,13,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+8,338,Anonymous Class,com.android.mms.LogTag.warnPossibleRecipientMismatch.(Anon_2).run.(Anon_3),4,4,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+9,340,Public Class,com.android.mms.MmsApp,145,97,23,25,1.0,15.0,0.0,1.0,2.0,11.0,8.0,12.0,12.0,0.0,1.0,0.0,11.0,2.0,84.0,0
+10,351,Anonymous Class,com.android.mms.MmsApp.onCreate.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+11,355,Public Class,com.android.mms.MmsConfig,413,319,64,46,1.0,0.0,0.0,41.0,43.0,0.0,0.0,41.0,41.0,0.0,1.0,0.0,40.0,1.0,95.0,1
+12,397,Public Class,com.android.mms.MmsLaunchPerformance,22,15,4,3,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+13,400,Public Class,com.android.mms.MmsStability,85,62,10,15,1.0,2.0,0.0,0.0,5.0,5.0,1.0,5.0,5.0,0.0,0.0,2.0,3.0,2.0,76.0,0
+14,402,Class,com.android.mms.MmsStability.sendMms,15,12,2,1,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+15,408,Public Class,com.android.mms.RecyclerTest,215,156,19,42,1.0,2.0,0.0,0.0,3.0,4.0,7.0,4.0,4.0,0.0,2.0,1.0,1.0,2.0,67.0,0
+16,409,Anonymous Class,com.android.mms.RecyclerTest.(Anon_1),36,30,1,5,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+17,411,Anonymous Class,com.android.mms.RecyclerTest.(Anon_2),11,10,1,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+18,417,Public Class,com.android.mms.ResolutionException,14,9,2,3,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,5.0,0.0,0.0,0.0,2.0,3.0,0.0,0
+19,420,Public Class,com.android.mms.SmsTestRunner,68,47,4,17,1.0,2.0,0.0,0.0,0.0,3.0,6.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,66.0,0
+20,424,Public Class,com.android.mms.SuggestionsProvider,396,299,69,33,1.0,1.0,0.0,0.0,1.0,7.0,0.0,7.0,7.0,0.0,0.0,0.0,7.0,2.0,0.0,0
+21,425,Private Class,com.android.mms.SuggestionsProvider.SuggestionsCursor,342,259,59,28,2.0,1.0,0.0,0.0,0.0,46.0,10.0,46.0,46.0,0.0,2.0,0.0,44.0,1.0,89.0,0
+22,426,Private Class,com.android.mms.SuggestionsProvider.SuggestionsCursor.Row,12,11,1,0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,25.0,0
+23,482,Public Class,com.android.mms.TempFileProvider,160,98,24,40,1.0,0.0,0.0,4.0,4.0,8.0,0.0,12.0,12.0,0.0,1.0,0.0,11.0,2.0,83.0,1
+24,495,Public Class,com.android.mms.UnsupportContentTypeException,14,9,2,3,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,5.0,0.0,0.0,0.0,2.0,3.0,0.0,0
+25,499,Public Class,com.android.mms.apptests.SmsSendIntentTestActivity,160,139,20,3,1.0,0.0,0.0,0.0,1.0,6.0,4.0,6.0,6.0,0.0,2.0,2.0,2.0,2.0,62.0,0
+26,502,Anonymous Class,com.android.mms.apptests.SmsSendIntentTestActivity.onCreate.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+27,504,Anonymous Class,com.android.mms.apptests.SmsSendIntentTestActivity.onCreate.(Anon_2),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+28,506,Anonymous Class,com.android.mms.apptests.SmsSendIntentTestActivity.onCreate.(Anon_3),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+29,508,Anonymous Class,com.android.mms.apptests.SmsSendIntentTestActivity.onCreate.(Anon_4),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+30,510,Anonymous Class,com.android.mms.apptests.SmsSendIntentTestActivity.onCreate.(Anon_5),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+31,512,Anonymous Class,com.android.mms.apptests.SmsSendIntentTestActivity.onCreate.(Anon_6),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+32,519,Public Class,com.android.mms.data.Contact,1146,857,134,183,1.0,5.0,0.0,13.0,12.0,28.0,18.0,41.0,41.0,0.0,7.0,0.0,34.0,1.0,93.0,1
+33,520,Anonymous Class,com.android.mms.data.Contact.(Anon_1),8,8,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+34,525,Private Static Class,com.android.mms.data.Contact.ContactsCache,805,611,81,133,1.0,6.0,0.0,0.0,28.0,22.0,3.0,22.0,22.0,2.0,16.0,0.0,4.0,1.0,81.0,1
+35,527,Private Static Class,com.android.mms.data.Contact.ContactsCache.TaskStack,40,37,2,1,1.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,25.0,1
+36,529,Anonymous Class,com.android.mms.data.Contact.ContactsCache.TaskStack.TaskStack.(Anon_2),22,21,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+37,538,Anonymous Class,com.android.mms.data.Contact.ContactsCache.get.(Anon_3),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+38,595,Public Class,com.android.mms.data.ContactList,165,124,18,24,1.0,5.0,0.0,4.0,1.0,9.0,0.0,13.0,13.0,0.0,1.0,0.0,12.0,2.0,0.0,0
+39,609,Public Class,com.android.mms.data.Conversation,1422,974,152,309,1.0,14.0,0.0,27.0,32.0,30.0,12.0,57.0,57.0,0.0,12.0,0.0,45.0,1.0,93.0,0
+40,610,Private Static Class,com.android.mms.data.Conversation.Cache,151,106,9,36,1.0,3.0,0.0,8.0,1.0,1.0,1.0,9.0,9.0,8.0,1.0,0.0,0.0,1.0,11.0,0
+41,623,Public Static Class,com.android.mms.data.Conversation.ConversationQueryHandler,35,22,4,9,1.0,1.0,2.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,1.0,2.0,2.0,33.0,0
+42,661,Anonymous Class,com.android.mms.data.Conversation.init.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+43,667,Anonymous Class,com.android.mms.data.Conversation.markAllConversationsAsSeen.(Anon_3),13,11,1,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+44,670,Anonymous Class,com.android.mms.data.Conversation.markAsRead.(Anon_1),42,30,4,8,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0
+45,687,Public Class,com.android.mms.data.RecipientIdCache,257,197,38,25,1.0,4.0,0.0,9.0,5.0,2.0,2.0,11.0,11.0,3.0,1.0,0.0,7.0,1.0,63.0,0
+46,688,Public Static Class,com.android.mms.data.RecipientIdCache.Entry,9,8,1,0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+47,698,Anonymous Class,com.android.mms.data.RecipientIdCache.init.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+48,701,Anonymous Class,com.android.mms.data.RecipientIdCache.insertCanonicalAddressInDb.(Anon_3),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+49,704,Anonymous Class,com.android.mms.data.RecipientIdCache.updateCanonicalAddressInDb.(Anon_2),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+50,707,Public Class,com.android.mms.data.WorkingMessage,1753,1132,221,427,1.0,27.0,0.0,10.0,32.0,63.0,14.0,73.0,73.0,0.0,35.0,0.0,38.0,1.0,90.0,1
+51,719,Anonymous Class,com.android.mms.data.WorkingMessage.asyncDelete.(Anon_6),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+52,724,Anonymous Class,com.android.mms.data.WorkingMessage.asyncUpdateDraftMmsMessage.(Anon_4),31,26,3,2,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+53,727,Anonymous Class,com.android.mms.data.WorkingMessage.asyncUpdateDraftSmsMessage.(Anon_5),18,18,0,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+54,758,Anonymous Class,com.android.mms.data.WorkingMessage.loadDraft.(Anon_1),43,33,3,7,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,0.0,0
+55,777,Anonymous Class,com.android.mms.data.WorkingMessage.send.(Anon_2),12,8,2,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+56,779,Anonymous Class,com.android.mms.data.WorkingMessage.send.(Anon_3),7,6,1,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+57,802,Public Class,com.android.mms.dom.AttrImpl,83,53,17,13,2.0,1.0,0.0,0.0,0.0,14.0,2.0,14.0,56.0,0.0,0.0,1.0,13.0,2.0,78.0,0
+58,817,Public Abstract Class,com.android.mms.dom.DocumentImpl,159,98,37,24,2.0,1.0,1.0,0.0,0.0,34.0,0.0,34.0,76.0,0.0,0.0,0.0,34.0,2.0,0.0,0
+59,852,Public Class,com.android.mms.dom.ElementImpl,146,95,31,20,2.0,3.0,1.0,0.0,0.0,25.0,2.0,25.0,67.0,0.0,0.0,1.0,24.0,2.0,86.0,0
+60,878,Public Class,com.android.mms.dom.NamedNodeMapImpl,62,49,10,3,2.0,0.0,0.0,0.0,0.0,8.0,1.0,8.0,8.0,0.0,0.0,0.0,8.0,1.0,37.0,0
+61,887,Public Abstract Class,com.android.mms.dom.NodeImpl,238,168,45,25,3.0,6.0,3.0,0.0,0.0,42.0,4.0,42.0,42.0,0.0,1.0,1.0,40.0,1.0,89.0,0
+62,930,Public Class,com.android.mms.dom.NodeListImpl,104,59,9,36,2.0,0.0,0.0,0.0,0.0,5.0,5.0,5.0,5.0,0.0,1.0,0.0,4.0,1.0,43.0,0
+63,937,Public Class,com.android.mms.dom.events.EventImpl,105,73,24,8,2.0,1.0,0.0,0.0,0.0,18.0,11.0,18.0,18.0,6.0,0.0,0.0,12.0,1.0,89.0,0
+64,956,Public Class,com.android.mms.dom.events.EventTargetImpl,103,75,16,12,2.0,5.0,0.0,0.0,1.0,4.0,2.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,37.0,1
+65,957,Static Class,com.android.mms.dom.events.EventTargetImpl.EventListenerEntry,13,12,1,0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0
+66,964,Public Abstract Class,com.android.mms.dom.smil.ElementParallelTimeContainerImpl,123,100,13,12,2.0,4.0,1.0,0.0,5.0,6.0,0.0,6.0,28.0,1.0,0.0,0.0,5.0,3.0,0.0,0
+67,971,Public Abstract Class,com.android.mms.dom.smil.ElementSequentialTimeContainerImpl,44,32,5,7,2.0,2.0,1.0,0.0,0.0,3.0,0.0,3.0,25.0,1.0,0.0,0.0,2.0,3.0,0.0,0
+68,975,Public Abstract Class,com.android.mms.dom.smil.ElementTimeContainerImpl,11,6,2,3,2.0,1.0,2.0,0.0,0.0,1.0,0.0,1.0,22.0,1.0,0.0,0.0,0.0,2.0,0.0,0
+69,977,Public Abstract Class,com.android.mms.dom.smil.ElementTimeImpl,319,214,32,80,2.0,5.0,2.0,0.0,8.0,21.0,1.0,21.0,21.0,4.0,1.0,0.0,16.0,1.0,15.0,1
+70,999,Public Class,com.android.mms.dom.smil.SmilDocumentImpl,256,175,49,32,3.0,13.0,0.0,0.0,2.0,30.0,1.0,30.0,106.0,0.0,0.0,0.0,30.0,3.0,19.0,0
+71,1008,Anonymous Class,com.android.mms.dom.smil.SmilDocumentImpl.getBody.(Anon_1),37,25,9,3,1.0,3.0,0.0,0.0,0.0,7.0,0.0,7.0,32.0,1.0,0.0,0.0,6.0,4.0,0.0,0
+72,1038,Public Class,com.android.mms.dom.smil.SmilElementImpl,23,11,4,8,2.0,1.0,5.0,0.0,0.0,3.0,0.0,3.0,70.0,1.0,0.0,0.0,2.0,3.0,0.0,0
+73,1042,Public Class,com.android.mms.dom.smil.SmilLayoutElementImpl,39,32,5,2,2.0,5.0,0.0,0.0,0.0,5.0,0.0,5.0,75.0,1.0,0.0,0.0,4.0,4.0,0.0,0
+74,1048,Public Class,com.android.mms.dom.smil.SmilMediaElementImpl,313,235,65,13,2.0,2.0,1.0,0.0,7.0,52.0,1.0,52.0,122.0,1.0,0.0,0.0,51.0,4.0,59.0,1
+75,1049,Anonymous Class,com.android.mms.dom.smil.SmilMediaElementImpl.(Anon_1),80,68,8,4,1.0,7.0,0.0,0.0,0.0,9.0,0.0,9.0,30.0,1.0,2.0,0.0,6.0,2.0,0.0,0
+76,1111,Public Class,com.android.mms.dom.smil.SmilParElementImpl,186,128,41,18,2.0,3.0,0.0,0.0,2.0,28.0,1.0,28.0,98.0,2.0,0.0,0.0,26.0,4.0,7.0,0
+77,1112,Anonymous Class,com.android.mms.dom.smil.SmilParElementImpl.(Anon_1),54,37,10,7,1.0,8.0,0.0,0.0,0.0,8.0,0.0,8.0,36.0,1.0,0.0,0.0,7.0,4.0,0.0,0
+78,1149,Public Class,com.android.mms.dom.smil.SmilPlayer,725,594,93,40,2.0,13.0,0.0,4.0,7.0,44.0,10.0,48.0,48.0,0.0,31.0,0.0,17.0,1.0,85.0,1
+79,1150,Anonymous Class,com.android.mms.dom.smil.SmilPlayer.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+80,1159,Private Static Class,com.android.mms.dom.smil.SmilPlayer.TimelineEntry,30,24,6,0,1.0,1.0,0.0,0.0,2.0,5.0,3.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,53.0,0
+81,1212,Public Class,com.android.mms.dom.smil.SmilRefElementImpl,8,6,2,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,126.0,1.0,0.0,0.0,0.0,6.0,0.0,0
+82,1214,Public Class,com.android.mms.dom.smil.SmilRegionElementImpl,258,216,26,16,2.0,3.0,0.0,0.0,19.0,21.0,0.0,21.0,91.0,1.0,1.0,0.0,19.0,4.0,0.0,1
+83,1236,Public Class,com.android.mms.dom.smil.SmilRegionMediaElementImpl,29,25,4,0,2.0,3.0,1.0,0.0,0.0,3.0,1.0,3.0,125.0,1.0,0.0,0.0,2.0,5.0,33.0,0
+84,1240,Public Class,com.android.mms.dom.smil.SmilRootLayoutElementImpl,62,46,13,3,2.0,1.0,0.0,0.0,4.0,10.0,0.0,10.0,80.0,1.0,1.0,0.0,8.0,4.0,0.0,0
+85,1251,Public Class,com.android.mms.dom.smil.TimeImpl,272,129,32,111,2.0,0.0,0.0,2.0,9.0,14.0,3.0,16.0,16.0,1.0,1.0,0.0,14.0,1.0,87.0,0
+86,1268,Public Class,com.android.mms.dom.smil.TimeListImpl,29,17,5,7,2.0,1.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,1.0,0.0,0.0,2.0,1.0,0.0,0
+87,1273,Public Class,com.android.mms.dom.smil.parser.SmilContentHandler,65,50,7,8,1.0,2.0,0.0,0.0,3.0,5.0,2.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,40.0,1
+88,1279,Public Class,com.android.mms.dom.smil.parser.SmilXmlParser,45,25,8,12,1.0,2.0,0.0,0.0,0.0,3.0,2.0,3.0,3.0,0.0,1.0,0.0,2.0,1.0,33.0,0
+89,1283,Public Class,com.android.mms.dom.smil.parser.SmilXmlSerializer,47,39,7,1,1.0,2.0,0.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,1.0,0.0,0
+90,1287,Public Class,com.android.mms.drm.DrmUtils,52,37,6,9,1.0,1.0,0.0,3.0,2.0,1.0,0.0,4.0,4.0,0.0,1.0,0.0,3.0,1.0,0.0,1
+91,1293,Class,com.android.mms.exif.ByteBufferInputStream,27,22,5,0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+92,1297,Class,com.android.mms.exif.CountedDataInputStream,109,87,21,1,1.0,0.0,0.0,0.0,0.0,19.0,3.0,19.0,19.0,0.0,0.0,1.0,18.0,2.0,75.0,0
+93,1317,Class,com.android.mms.exif.ExifData,322,212,28,82,1.0,4.0,0.0,0.0,4.0,23.0,4.0,23.0,23.0,1.0,0.0,21.0,1.0,1.0,73.0,1
+94,1341,Public Class,com.android.mms.exif.ExifInterface,2360,1513,145,707,1.0,13.0,0.0,15.0,130.0,81.0,5.0,96.0,96.0,0.0,3.0,14.0,79.0,1.0,95.0,0
+95,1469,Public Class,com.android.mms.exif.ExifInvalidFormatException,4,4,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+96,1471,Class,com.android.mms.exif.ExifModifier,168,157,10,1,1.0,10.0,0.0,0.0,2.0,6.0,5.0,6.0,6.0,0.0,2.0,3.0,1.0,1.0,53.0,1
+97,1473,Private Static Class,com.android.mms.exif.ExifModifier.TagOffset,9,8,1,0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0
+98,1480,Class,com.android.mms.exif.ExifOutputStream,490,395,34,62,1.0,7.0,0.0,1.0,13.0,15.0,7.0,16.0,16.0,1.0,9.0,3.0,3.0,2.0,86.0,1
+99,1497,Public Class,com.android.mms.exif.ExifParser,889,585,60,248,1.0,10.0,0.0,2.0,30.0,36.0,19.0,38.0,38.0,0.0,13.0,25.0,0.0,1.0,91.0,1
+100,1499,Private Static Class,com.android.mms.exif.ExifParser.ExifTagEvent,9,8,1,0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0
+101,1501,Private Static Class,com.android.mms.exif.ExifParser.IfdEvent,9,8,1,0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0
+102,1503,Private Static Class,com.android.mms.exif.ExifParser.ImageEvent,14,12,2,0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,0
+103,1543,Class,com.android.mms.exif.ExifReader,69,54,4,11,1.0,6.0,0.0,0.0,1.0,2.0,1.0,2.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,1
+104,1546,Public Class,com.android.mms.exif.ExifTag,985,539,67,380,1.0,2.0,0.0,4.0,16.0,53.0,7.0,57.0,57.0,1.0,7.0,12.0,37.0,1.0,85.0,0
+105,1604,Class,com.android.mms.exif.IfdData,131,69,12,50,1.0,3.0,0.0,1.0,1.0,11.0,3.0,12.0,12.0,1.0,0.0,10.0,1.0,1.0,63.0,0
+106,1618,Class,com.android.mms.exif.JpegHeader,21,15,2,4,1.0,0.0,0.0,1.0,9.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+107,1620,Class,com.android.mms.exif.OrderedDataOutputStream,32,27,5,0,1.0,1.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,40.0,0
+108,1626,Public Class,com.android.mms.exif.Rational,70,39,8,23,1.0,0.0,0.0,0.0,0.0,7.0,2.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,14.0,0
+109,1635,Public Class,com.android.mms.layout.HVGALayoutParameters,74,60,14,0,2.0,0.0,0.0,0.0,9.0,7.0,1.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,57.0,1
+110,1643,Public Class,com.android.mms.layout.LayoutManager,83,65,15,3,1.0,2.0,0.0,2.0,4.0,8.0,2.0,10.0,10.0,0.0,3.0,0.0,7.0,1.0,70.0,1
+111,1662,Public Class,com.android.mms.model.AudioModel,120,96,17,7,1.0,8.0,0.0,0.0,3.0,8.0,1.0,8.0,44.0,0.0,1.0,2.0,5.0,3.0,62.0,0
+112,1671,Public Class,com.android.mms.model.CarrierContentRestriction,75,64,11,0,2.0,6.0,0.0,0.0,4.0,6.0,0.0,6.0,6.0,0.0,0.0,0.0,6.0,1.0,0.0,0
+113,1684,Public Class,com.android.mms.model.ContentRestrictionFactory,13,11,2,0,1.0,2.0,0.0,1.0,1.0,1.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,1.0,50.0,0
+114,1689,Public Class,com.android.mms.model.ImageModel,205,158,31,16,1.0,16.0,0.0,0.0,5.0,14.0,4.0,14.0,57.0,0.0,3.0,2.0,9.0,4.0,80.0,0
+115,1704,Public Class,com.android.mms.model.LayoutModel,248,201,40,7,1.0,5.0,0.0,0.0,8.0,22.0,6.0,22.0,29.0,0.0,4.0,3.0,15.0,2.0,64.0,0
+116,1727,Public Abstract Class,com.android.mms.model.MediaModel,274,198,37,39,2.0,4.0,2.0,1.0,2.0,28.0,13.0,29.0,36.0,1.0,1.0,4.0,23.0,2.0,89.0,1
+117,1760,Public Class,com.android.mms.model.MediaModelFactory,180,148,19,13,1.0,18.0,0.0,6.0,1.0,0.0,0.0,6.0,6.0,0.0,5.0,0.0,1.0,1.0,0.0,0
+118,1767,Public Class,com.android.mms.model.Model,41,31,7,3,1.0,1.0,5.0,0.0,0.0,7.0,1.0,7.0,7.0,0.0,0.0,4.0,3.0,1.0,42.0,0
+119,1775,Public Abstract Class,com.android.mms.model.RegionMediaModel,44,31,7,6,1.0,1.0,3.0,0.0,0.0,7.0,2.0,7.0,43.0,0.0,0.0,0.0,7.0,3.0,57.0,0
+120,1783,Public Class,com.android.mms.model.RegionModel,128,73,16,39,1.0,0.0,0.0,0.0,1.0,16.0,7.0,16.0,23.0,0.0,0.0,0.0,16.0,2.0,82.0,0
+121,1800,Public Class,com.android.mms.model.SlideModel,514,380,78,56,3.0,10.0,0.0,0.0,4.0,59.0,13.0,59.0,66.0,0.0,3.0,3.0,53.0,2.0,90.0,1
+122,1861,Public Class,com.android.mms.model.SlideshowModel,662,501,91,74,3.0,27.0,0.0,4.0,2.0,45.0,7.0,49.0,56.0,0.0,3.0,3.0,43.0,2.0,84.0,0
+123,1912,Public Class,com.android.mms.model.SmilHelper,358,274,47,38,1.0,27.0,0.0,14.0,8.0,1.0,0.0,15.0,15.0,2.0,8.0,0.0,5.0,1.0,0.0,1
+124,1928,Public Class,com.android.mms.model.TextModel,80,61,13,8,1.0,5.0,0.0,0.0,1.0,8.0,2.0,8.0,51.0,0.0,1.0,0.0,7.0,4.0,56.0,1
+125,1937,Public Class,com.android.mms.model.VideoModel,171,144,18,9,1.0,15.0,0.0,0.0,3.0,10.0,1.0,10.0,53.0,0.0,3.0,2.0,5.0,4.0,80.0,1
+126,1949,Public Abstract Class,com.android.mms.transaction.AbstractRetryScheme,13,10,3,0,1.0,0.0,1.0,0.0,2.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+127,1953,Public Class,com.android.mms.transaction.DefaultRetryScheme,34,24,6,4,1.0,0.0,0.0,0.0,4.0,3.0,0.0,3.0,6.0,0.0,0.0,0.0,3.0,2.0,0.0,1
+128,1957,Public Class,com.android.mms.transaction.HttpUtils,325,244,34,49,1.0,3.0,0.0,6.0,11.0,1.0,0.0,7.0,7.0,0.0,5.0,1.0,1.0,1.0,0.0,0
+129,1967,Public Class,com.android.mms.transaction.MessageStatusReceiver,12,11,1,0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+130,1969,Public Class,com.android.mms.transaction.MessageStatusService,80,57,13,11,1.0,2.0,0.0,0.0,3.0,5.0,0.0,5.0,5.0,0.0,3.0,1.0,1.0,2.0,0.0,0
+131,1975,Public Class,com.android.mms.transaction.MessagingNotification,1301,940,170,205,1.0,19.0,0.0,32.0,34.0,1.0,0.0,33.0,33.0,0.0,16.0,1.0,16.0,1.0,93.0,1
+132,1977,Private Static Class,com.android.mms.transaction.MessagingNotification.MmsSmsDeliveryInfo,14,12,2,0,1.0,1.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+133,1980,Private Static Class,com.android.mms.transaction.MessagingNotification.NotificationInfo,148,115,12,21,1.0,3.0,0.0,0.0,0.0,5.0,11.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,60.0,0
+134,1986,Private Static Class,com.android.mms.transaction.MessagingNotification.NotificationInfoComparator,13,8,0,5,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+135,1988,Public Static Class,com.android.mms.transaction.MessagingNotification.OnDeletedReceiver,10,9,1,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+136,2011,Anonymous Class,com.android.mms.transaction.MessagingNotification.nonBlockingUpdateNewMessageIndicator.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+137,2014,Anonymous Class,com.android.mms.transaction.MessagingNotification.nonBlockingUpdateSendFailedNotification.(Anon_4),13,11,1,1,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,0.0,0
+138,2022,Anonymous Class,com.android.mms.transaction.MessagingNotification.playInConversationNotificationSound.(Anon_2),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+139,2026,Anonymous Class,com.android.mms.transaction.MessagingNotification.updateDeliveryNotification.(Anon_3),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+140,2031,Public Class,com.android.mms.transaction.MmsMessageSender,129,85,27,17,2.0,4.0,0.0,1.0,6.0,3.0,3.0,4.0,4.0,0.0,1.0,0.0,3.0,1.0,41.0,0
+141,2036,Public Class,com.android.mms.transaction.MmsPushOutboxMessages,24,15,2,7,1.0,2.0,0.0,0.0,2.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+142,2038,Public Class,com.android.mms.transaction.MmsSystemEventReceiver,71,47,7,17,1.0,5.0,0.0,1.0,2.0,1.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,50.0,1
+143,2041,Public Class,com.android.mms.transaction.NotificationPlayer,315,220,23,72,2.0,3.0,0.0,0.0,3.0,9.0,10.0,9.0,9.0,0.0,4.0,0.0,5.0,1.0,76.0,0
+144,2042,Private Class,com.android.mms.transaction.NotificationPlayer.CmdThread,56,48,4,4,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,1.0,0.0,0.0,1.0,2.0,0.0,0
+145,2045,Private Static Class,com.android.mms.transaction.NotificationPlayer.Command,15,14,1,0,1.0,0.0,0.0,0.0,0.0,1.0,7.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,42.0,0
+146,2047,Private Class,com.android.mms.transaction.NotificationPlayer.CreationAndCompletionThread,47,46,1,0,1.0,2.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+147,2059,Public Class,com.android.mms.transaction.NotificationTransaction,214,142,27,45,2.0,10.0,0.0,1.0,3.0,6.0,3.0,7.0,27.0,0.0,1.0,0.0,6.0,3.0,57.0,1
+148,2067,Public Abstract Class,com.android.mms.transaction.Observable,55,28,5,22,1.0,2.0,1.0,0.0,0.0,5.0,2.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,25.0,0
+149,2075,Public Class,com.android.mms.transaction.PrivilegedSmsReceiver,13,6,0,7,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,6.0,0.0,0.0,0.0,1.0,3.0,0.0,0
+150,2077,Public Class,com.android.mms.transaction.ProgressCallbackEntity,62,51,11,0,1.0,0.0,0.0,0.0,5.0,3.0,3.0,3.0,3.0,0.0,1.0,0.0,2.0,2.0,33.0,0
+151,2081,Public Class,com.android.mms.transaction.PushReceiver,187,150,20,17,1.0,1.0,0.0,2.0,3.0,1.0,0.0,3.0,3.0,0.0,2.0,0.0,1.0,2.0,0.0,1
+152,2082,Private Class,com.android.mms.transaction.PushReceiver.ReceivePushTask,98,79,11,8,1.0,7.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+153,2088,Public Class,com.android.mms.transaction.ReadRecTransaction,85,56,10,19,2.0,4.0,0.0,0.0,3.0,4.0,2.0,4.0,24.0,0.0,0.0,0.0,4.0,3.0,62.0,1
+154,2093,Public Class,com.android.mms.transaction.RetrieveTransaction,259,177,31,54,2.0,10.0,0.0,3.0,6.0,6.0,3.0,9.0,29.0,0.0,5.0,0.0,4.0,3.0,74.0,1
+155,2103,Public Class,com.android.mms.transaction.RetryScheduler,263,224,28,12,2.0,12.0,0.0,2.0,4.0,6.0,2.0,8.0,8.0,0.0,5.0,0.0,3.0,1.0,54.0,0
+156,2112,Public Class,com.android.mms.transaction.SendTransaction,134,86,19,29,2.0,7.0,0.0,0.0,1.0,4.0,2.0,4.0,24.0,0.0,0.0,0.0,4.0,3.0,62.0,0
+157,2117,Public Class,com.android.mms.transaction.SimFullReceiver,34,25,6,3,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+158,2119,Public Class,com.android.mms.transaction.SmsMessageSender,118,87,13,20,2.0,4.0,1.0,0.0,5.0,5.0,7.0,5.0,5.0,0.0,3.0,0.0,2.0,1.0,60.0,0
+159,2125,Public Class,com.android.mms.transaction.SmsReceiver,72,45,7,20,1.0,1.0,1.0,3.0,3.0,2.0,0.0,5.0,5.0,0.0,0.0,1.0,4.0,2.0,70.0,0
+160,2131,Public Class,com.android.mms.transaction.SmsReceiverService,629,430,84,123,1.0,12.0,0.0,2.0,14.0,21.0,5.0,23.0,23.0,0.0,17.0,0.0,6.0,2.0,91.0,0
+161,2132,Private Class,com.android.mms.transaction.SmsReceiverService.ServiceHandler,44,34,4,6,1.0,4.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+162,2143,Anonymous Class,com.android.mms.transaction.SmsReceiverService.handleSmsSent.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+163,2145,Anonymous Class,com.android.mms.transaction.SmsReceiverService.handleSmsSent.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+164,2162,Public Class,com.android.mms.transaction.SmsRejectedReceiver,57,42,9,6,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+165,2164,Public Class,com.android.mms.transaction.SmsSingleRecipientSender,112,92,8,12,1.0,7.0,0.0,0.0,1.0,3.0,3.0,3.0,8.0,0.0,1.0,0.0,2.0,2.0,33.0,0
+166,2168,Public Abstract Class,com.android.mms.transaction.Transaction,219,100,18,101,1.0,4.0,4.0,0.0,4.0,15.0,5.0,15.0,20.0,0.0,1.0,5.0,9.0,2.0,73.0,0
+167,2184,Public Class,com.android.mms.transaction.TransactionBundle,135,63,19,53,1.0,1.0,0.0,0.0,6.0,13.0,1.0,13.0,13.0,0.0,1.0,0.0,12.0,1.0,15.0,0
+168,2198,Public Class,com.android.mms.transaction.TransactionService,945,716,102,127,2.0,12.0,0.0,1.0,16.0,16.0,8.0,17.0,17.0,0.0,9.0,2.0,6.0,2.0,83.0,1
+169,2199,Anonymous Class,com.android.mms.transaction.TransactionService.(Anon_1),18,16,2,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+170,2201,Private Class,com.android.mms.transaction.TransactionService.ConnectivityBroadcastReceiver,78,59,8,11,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+171,2203,Private Class,com.android.mms.transaction.TransactionService.ServiceHandler,347,278,35,34,1.0,11.0,0.0,0.0,0.0,7.0,0.0,7.0,7.0,0.0,3.0,0.0,4.0,2.0,0.0,1
+172,2228,Public Class,com.android.mms.transaction.TransactionSettings,146,106,19,25,1.0,1.0,0.0,1.0,8.0,6.0,3.0,7.0,7.0,0.0,1.0,0.0,6.0,1.0,52.0,0
+173,2236,Public Class,com.android.mms.transaction.TransactionState,68,26,6,36,1.0,0.0,0.0,0.0,3.0,5.0,2.0,5.0,5.0,2.0,0.0,0.0,3.0,1.0,40.0,0
+174,2250,Public Class,com.android.mms.ui.AsyncDialog,137,73,11,53,1.0,1.0,0.0,0.0,0.0,3.0,4.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,58.0,0
+175,2251,Anonymous Class,com.android.mms.ui.AsyncDialog.(Anon_1),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+176,2254,Private Class,com.android.mms.ui.AsyncDialog.ModalDialogAsyncTask,88,48,6,34,1.0,1.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,0.0,1.0,3.0,1.0,2.0,60.0,0
+177,2262,Public Class,com.android.mms.ui.AttachmentEditor,185,142,31,12,1.0,7.0,0.0,0.0,11.0,11.0,7.0,11.0,11.0,0.0,6.0,0.0,5.0,2.0,83.0,1
+178,2264,Private Class,com.android.mms.ui.AttachmentEditor.MessageOnClick,12,10,2,0,2.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+179,2277,Public Class,com.android.mms.ui.AttachmentTypeSelectorAdapter,74,55,16,3,1.0,3.0,0.0,2.0,9.0,2.0,0.0,4.0,6.0,0.0,0.0,2.0,2.0,3.0,0.0,0
+180,2278,Public Static Class,com.android.mms.ui.AttachmentTypeSelectorAdapter.AttachmentListItem,13,10,3,0,1.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,5.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+181,2285,Public Class,com.android.mms.ui.AudioAttachmentView,179,120,42,17,2.0,0.0,0.0,0.0,1.0,25.0,8.0,25.0,25.0,0.0,3.0,1.0,21.0,2.0,90.0,1
+182,2308,Anonymous Class,com.android.mms.ui.AudioAttachmentView.startAudio.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+183,2310,Anonymous Class,com.android.mms.ui.AudioAttachmentView.startAudio.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+184,2315,Public Class,com.android.mms.ui.BasicSlideEditorView,162,113,31,18,2.0,2.0,0.0,0.0,1.0,23.0,6.0,23.0,23.0,0.0,0.0,0.0,23.0,2.0,88.0,1
+185,2321,Anonymous Class,com.android.mms.ui.BasicSlideEditorView.onFinishInflate.(Anon_1),16,12,2,2,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+186,2345,Public Class,com.android.mms.ui.ChipsRecipientAdapter,22,10,3,9,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,1
+187,2348,Public Class,com.android.mms.ui.ClassZeroActivity,203,160,25,19,1.0,1.0,0.0,0.0,8.0,8.0,7.0,8.0,8.0,0.0,4.0,4.0,0.0,2.0,76.0,1
+188,2349,Anonymous Class,com.android.mms.ui.ClassZeroActivity.(Anon_1),11,10,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+189,2351,Anonymous Class,com.android.mms.ui.ClassZeroActivity.(Anon_2),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+190,2353,Anonymous Class,com.android.mms.ui.ClassZeroActivity.(Anon_3),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+191,2363,Public Class,com.android.mms.ui.ComposeMessageActivity,4197,3051,533,655,5.0,39.0,1.0,5.0,59.0,121.0,54.0,126.0,126.0,2.0,93.0,9.0,22.0,2.0,97.0,1
+192,2364,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_10),19,17,2,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+193,2366,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_11),109,89,13,7,1.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+194,2368,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_15),24,23,1,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+195,2370,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_24),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+196,2372,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_3),35,32,3,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+197,2374,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_33),31,27,3,1,2.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+198,2376,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_39),25,15,6,4,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+199,2380,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_40),12,10,2,0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+200,2384,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_44),9,8,1,0,2.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+201,2387,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_6),34,31,3,0,1.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+202,2389,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_7),15,13,1,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+203,2391,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.(Anon_9),61,36,8,17,1.0,5.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+204,2395,Private Class,com.android.mms.ui.ComposeMessageActivity.BackgroundQueryHandler,207,143,17,49,1.0,11.0,0.0,0.0,0.0,3.0,0.0,3.0,6.0,0.0,0.0,2.0,1.0,3.0,0.0,1
+205,2399,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.BackgroundQueryHandler.onQueryComplete.(Anon_45),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+206,2401,Private Class,com.android.mms.ui.ComposeMessageActivity.CancelSendingListener,9,9,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+207,2403,Private Class,com.android.mms.ui.ComposeMessageActivity.DeleteMessageListener,36,30,4,2,2.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,50.0,0
+208,2406,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.DeleteMessageListener.onClick.(Anon_8),22,19,1,2,1.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0
+209,2408,Private Class,com.android.mms.ui.ComposeMessageActivity.DiscardDraftListener,8,8,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+210,2410,Private Class,com.android.mms.ui.ComposeMessageActivity.MsgListMenuClickListener,77,61,13,3,2.0,4.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+211,2413,Private Class,com.android.mms.ui.ComposeMessageActivity.RecipientsMenuClickListener,29,26,2,1,2.0,3.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0
+212,2416,Private Class,com.android.mms.ui.ComposeMessageActivity.SendIgnoreInvalidRecipientListener,7,7,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+213,2424,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.addImageAsync.(Anon_35),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+214,2431,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.addVideoAsync.(Anon_36),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+215,2452,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.editSlideshow.(Anon_1),6,5,0,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+216,2454,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.editSlideshow.(Anon_2),13,11,0,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+217,2460,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.forwardMessage.(Anon_12),31,28,1,2,1.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+218,2462,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.forwardMessage.(Anon_13),34,23,2,9,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+219,2478,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.handleAddAttachmentError.(Anon_34),30,28,2,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+220,2482,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.handleSendIntent.(Anon_37),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+221,2484,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.handleSendIntent.(Anon_38),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+222,2494,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.initMessageList.(Anon_42),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+223,2497,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.initRecipientsEditor.(Anon_16),17,11,0,6,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+224,2499,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.initRecipientsEditor.(Anon_17),9,9,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+225,2502,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.initResourceRefs.(Anon_41),19,11,3,5,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+226,2515,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.loadDraft.(Anon_43),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+227,2520,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.lockMessage.(Anon_14),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+228,2525,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onAttachmentChanged.(Anon_22),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+229,2528,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onAttachmentError.(Anon_27),6,6,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+230,2536,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onKeyDown.(Anon_21),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+231,2540,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onMaxPendingMessagesReached.(Anon_26),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+232,2543,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onMessageSent.(Anon_25),18,9,1,8,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+233,2547,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onOptionsItemSelected.(Anon_28),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+234,2553,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onProtocolChanged.(Anon_23),14,9,2,3,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+235,2557,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onResume.(Anon_20),7,7,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+236,2561,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onStart.(Anon_18),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+237,2565,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.onUpdate.(Anon_46),21,12,2,7,1.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+238,2568,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.processPickResult.(Anon_30),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+239,2570,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.processPickResult.(Anon_31),21,19,0,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+240,2572,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.processPickResult.(Anon_31).run.(Anon_32),6,6,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+241,2584,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.showAddAttachmentDialog.(Anon_29),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+242,2599,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.updateSendFailedNotification.(Anon_19),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+243,2604,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.viewMmsMessageAttachment.(Anon_4),6,5,0,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+244,2606,Anonymous Class,com.android.mms.ui.ComposeMessageActivity.viewMmsMessageAttachment.(Anon_5),11,9,0,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+245,2608,Public Class,com.android.mms.ui.ComposeMessageActivityNoLockScreen,11,8,0,3,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,127.0,0.0,0.0,1.0,0.0,3.0,0.0,0
+246,2610,Public Class,com.android.mms.ui.ComposeMessageActivityTests,172,128,25,21,1.0,9.0,0.0,0.0,1.0,5.0,7.0,5.0,5.0,0.0,1.0,1.0,3.0,2.0,74.0,0
+247,2611,Class,com.android.mms.ui.ComposeMessageActivityTests.BoxChecker,70,57,12,2,1.0,5.0,0.0,0.0,0.0,5.0,4.0,5.0,5.0,0.0,2.0,0.0,3.0,1.0,60.0,0
+248,2612,Anonymous Class,com.android.mms.ui.ComposeMessageActivityTests.BoxChecker.(Anon_1),30,26,3,2,2.0,3.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+249,2625,Anonymous Class,com.android.mms.ui.ComposeMessageActivityTests.testSendMessage.(Anon_2),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+250,2627,Public Class,com.android.mms.ui.ConfirmRateLimitActivity,83,68,14,1,1.0,1.0,0.0,0.0,3.0,5.0,3.0,5.0,5.0,0.0,1.0,3.0,1.0,2.0,46.0,1
+251,2630,Anonymous Class,com.android.mms.ui.ConfirmRateLimitActivity.onCreate.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+252,2632,Anonymous Class,com.android.mms.ui.ConfirmRateLimitActivity.onCreate.(Anon_2),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+253,2634,Anonymous Class,com.android.mms.ui.ConfirmRateLimitActivity.onCreate.(Anon_3),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+254,2639,Public Class,com.android.mms.ui.ConversationList,983,729,120,137,2.0,15.0,0.0,4.0,15.0,24.0,18.0,28.0,28.0,0.0,8.0,6.0,14.0,2.0,92.0,1
+255,2640,Anonymous Class,com.android.mms.ui.ConversationList.(Anon_1),5,5,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+256,2642,Anonymous Class,com.android.mms.ui.ConversationList.(Anon_10),29,25,2,2,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+257,2644,Anonymous Class,com.android.mms.ui.ConversationList.(Anon_12),16,16,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+258,2646,Anonymous Class,com.android.mms.ui.ConversationList.(Anon_14),23,21,0,2,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+259,2648,Anonymous Class,com.android.mms.ui.ConversationList.(Anon_9),15,14,1,0,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+260,2651,Public Static Class,com.android.mms.ui.ConversationList.DeleteThreadListener,36,33,3,0,2.0,2.0,0.0,0.0,0.0,3.0,4.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,50.0,1
+261,2654,Anonymous Class,com.android.mms.ui.ConversationList.DeleteThreadListener.onClick.(Anon_13),12,12,0,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+262,2657,Private Class,com.android.mms.ui.ConversationList.ModeCallback,79,67,12,0,2.0,3.0,0.0,0.0,0.0,5.0,3.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,40.0,0
+263,2663,Private Class,com.android.mms.ui.ConversationList.ThreadListQueryHandler,125,78,15,33,1.0,8.0,0.0,0.0,0.0,3.0,0.0,3.0,6.0,0.0,0.0,2.0,1.0,3.0,0.0,1
+264,2669,Anonymous Class,com.android.mms.ui.ConversationList.confirmDeleteThreadDialog.(Anon_11),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+265,2676,Anonymous Class,com.android.mms.ui.ConversationList.initSmsPromoBanner.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+266,2678,Anonymous Class,com.android.mms.ui.ConversationList.initSmsPromoBanner.(Anon_3),8,7,0,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+267,2687,Anonymous Class,com.android.mms.ui.ConversationList.onDraftChanged.(Anon_8),8,8,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+268,2701,Anonymous Class,com.android.mms.ui.ConversationList.runOneTimeStorageLimitCheckForLegacyMessages.(Anon_4),36,31,0,5,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+269,2703,Anonymous Class,com.android.mms.ui.ConversationList.runOneTimeStorageLimitCheckForLegacyMessages.(Anon_4).run.(Anon_5),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+270,2705,Anonymous Class,com.android.mms.ui.ConversationList.runOneTimeStorageLimitCheckForLegacyMessages.(Anon_4).run.(Anon_6),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+271,2707,Anonymous Class,com.android.mms.ui.ConversationList.runOneTimeStorageLimitCheckForLegacyMessages.(Anon_4).run.(Anon_7),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+272,2711,Public Class,com.android.mms.ui.ConversationListAdapter,64,51,10,4,2.0,3.0,0.0,0.0,2.0,7.0,2.0,7.0,7.0,0.0,0.0,1.0,6.0,2.0,71.0,1
+273,2721,Public Class,com.android.mms.ui.ConversationListItem,214,156,38,20,3.0,5.0,0.0,0.0,4.0,15.0,8.0,15.0,15.0,0.0,4.0,1.0,10.0,2.0,80.0,0
+274,2731,Anonymous Class,com.android.mms.ui.ConversationListItem.onUpdate.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+275,2739,Public Class,com.android.mms.ui.ConversationListTests,36,12,5,19,1.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,50.0,0
+276,2742,Public Class,com.android.mms.ui.DeliveryReportActivity,352,280,49,34,1.0,5.0,0.0,1.0,11.0,14.0,2.0,15.0,15.0,0.0,13.0,1.0,1.0,2.0,80.0,1
+277,2743,Private Static Class,com.android.mms.ui.DeliveryReportActivity.MmsReportRequest,23,19,4,0,1.0,0.0,0.0,0.0,0.0,4.0,3.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,50.0,0
+278,2748,Private Static Class,com.android.mms.ui.DeliveryReportActivity.MmsReportStatus,9,8,1,0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+279,2765,Public Class,com.android.mms.ui.DeliveryReportAdapter,32,24,5,3,1.0,2.0,0.0,0.0,1.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,1
+280,2768,Public Class,com.android.mms.ui.DeliveryReportItem,15,10,1,4,1.0,0.0,0.0,0.0,0.0,1.0,3.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+281,2770,Public Class,com.android.mms.ui.DeliveryReportListItem,66,49,8,9,1.0,1.0,0.0,0.0,0.0,4.0,4.0,4.0,4.0,1.0,0.0,1.0,2.0,2.0,50.0,0
+282,2782,Public Class,com.android.mms.ui.EditSlideDurationActivity,132,95,19,18,1.0,0.0,0.0,0.0,7.0,4.0,8.0,4.0,4.0,0.0,1.0,3.0,0.0,2.0,56.0,1
+283,2783,Anonymous Class,com.android.mms.ui.EditSlideDurationActivity.(Anon_1),14,12,1,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+284,2785,Anonymous Class,com.android.mms.ui.EditSlideDurationActivity.(Anon_2),5,4,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+285,2791,Public Class,com.android.mms.ui.IconListAdapter,80,61,14,5,1.0,1.0,2.0,0.0,1.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,25.0,0
+286,2793,Public Static Class,com.android.mms.ui.IconListAdapter.IconListItem,17,14,3,0,1.0,0.0,1.0,0.0,0.0,3.0,2.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,33.0,0
+287,2797,Static Class,com.android.mms.ui.IconListAdapter.ViewHolder,25,20,5,0,1.0,0.0,0.0,0.0,0.0,3.0,3.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,44.0,0
+288,2802,Public Class,com.android.mms.ui.ImageAttachmentView,118,63,37,18,2.0,0.0,0.0,0.0,1.0,22.0,1.0,22.0,22.0,0.0,0.0,1.0,21.0,2.0,86.0,1
+289,2825,Public Class,com.android.mms.ui.LayoutSelectorAdapter,23,17,3,3,1.0,1.0,0.0,2.0,0.0,1.0,0.0,3.0,5.0,0.0,0.0,2.0,1.0,3.0,0.0,0
+290,2829,Public Class,com.android.mms.ui.LongThreadTest,394,278,59,61,1.0,3.0,0.0,0.0,1.0,4.0,10.0,4.0,4.0,0.0,1.0,1.0,2.0,2.0,65.0,0
+291,2830,Anonymous Class,com.android.mms.ui.LongThreadTest.(Anon_1),11,10,0,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+292,2832,Anonymous Class,com.android.mms.ui.LongThreadTest.(Anon_2),16,13,1,2,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+293,2834,Private Class,com.android.mms.ui.LongThreadTest.AddSubjectMenuItem,218,136,43,39,2.0,0.0,0.0,0.0,1.0,41.0,0.0,41.0,41.0,0.0,0.0,0.0,41.0,1.0,0.0,0
+294,2877,Private Abstract Class,com.android.mms.ui.LongThreadTest.MessageRunnable,7,6,1,0,2.0,0.0,2.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+295,2882,Anonymous Class,com.android.mms.ui.LongThreadTest.testSendManyMessages.(for_loop_2).(Anon_3),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+296,2884,Public Class,com.android.mms.ui.ManageSimMessages,316,255,46,17,2.0,3.0,0.0,0.0,10.0,19.0,8.0,19.0,19.0,0.0,11.0,2.0,6.0,2.0,87.0,1
+297,2885,Anonymous Class,com.android.mms.ui.ManageSimMessages.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+298,2887,Private Class,com.android.mms.ui.ManageSimMessages.QueryHandler,40,31,2,7,1.0,2.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+299,2897,Anonymous Class,com.android.mms.ui.ManageSimMessages.onContextItemSelected.(Anon_2),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+300,2903,Anonymous Class,com.android.mms.ui.ManageSimMessages.onOptionsItemSelected.(Anon_3),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+301,2913,Public Class,com.android.mms.ui.MessageItem,374,286,42,52,1.0,14.0,0.0,0.0,2.0,18.0,28.0,18.0,18.0,1.0,1.0,0.0,16.0,1.0,90.0,0
+302,2920,Public Class,com.android.mms.ui.MessageItem.PduLoadedMessageItemCallback,100,93,5,2,2.0,12.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+303,2939,Public Class,com.android.mms.ui.MessageListAdapter,460,381,53,28,1.0,5.0,0.0,1.0,33.0,16.0,8.0,17.0,17.0,0.0,3.0,1.0,13.0,2.0,84.0,1
+304,2940,Public Static Class,com.android.mms.ui.MessageListAdapter.ColumnsMap,174,151,21,2,1.0,1.0,0.0,0.0,0.0,2.0,24.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,16.0,0
+305,2943,Private Static Class,com.android.mms.ui.MessageListAdapter.MessageItemCache,11,10,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+306,2947,Anonymous Class,com.android.mms.ui.MessageListAdapter.MessageListAdapter.(Anon_1),9,8,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+307,2968,Public Class,com.android.mms.ui.MessageListItem,762,587,93,87,3.0,13.0,0.0,0.0,8.0,40.0,22.0,40.0,40.0,0.0,12.0,1.0,27.0,2.0,93.0,1
+308,2969,Anonymous Class,com.android.mms.ui.MessageListItem.(Anon_3),6,6,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+309,2971,Private Static Class,com.android.mms.ui.MessageListItem.ImageLoadedCallback,29,24,3,2,2.0,3.0,0.0,0.0,0.0,3.0,2.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,16.0,0
+310,2979,Anonymous Class,com.android.mms.ui.MessageListItem.bindCommonMessage.(Anon_2),14,14,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+311,2982,Anonymous Class,com.android.mms.ui.MessageListItem.bindNotifInd.(Anon_1),14,13,1,0,1.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+312,2986,Anonymous Class,com.android.mms.ui.MessageListItem.drawPlaybackButton.(Anon_4),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+313,2995,Anonymous Class,com.android.mms.ui.MessageListItem.onMessageListItemClick.(Anon_5),33,31,0,2,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+314,2997,Anonymous Class,com.android.mms.ui.MessageListItem.onMessageListItemClick.(Anon_6),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+315,2999,Anonymous Class,com.android.mms.ui.MessageListItem.onMessageListItemClick.(Anon_7),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+316,3013,Anonymous Class,com.android.mms.ui.MessageListItem.setOnClickListener.(Anon_8),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+317,3015,Anonymous Class,com.android.mms.ui.MessageListItem.setOnClickListener.(Anon_9),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+318,3031,Public Class,com.android.mms.ui.MessageListView,53,41,8,4,1.0,3.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,1.0,0.0,1.0,3.0,2.0,60.0,0
+319,3039,Public Class,com.android.mms.ui.MessageUtils,953,687,137,133,1.0,14.0,0.0,37.0,10.0,1.0,0.0,38.0,38.0,0.0,10.0,0.0,28.0,1.0,97.0,1
+320,3060,Anonymous Class,com.android.mms.ui.MessageUtils.handleReadReport.(Anon_5),13,12,1,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+321,3062,Anonymous Class,com.android.mms.ui.MessageUtils.handleReadReport.(Anon_6),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+322,3064,Anonymous Class,com.android.mms.ui.MessageUtils.handleReadReport.(Anon_7),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+323,3076,Anonymous Class,com.android.mms.ui.MessageUtils.resizeImageAsync.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+324,3078,Anonymous Class,com.android.mms.ui.MessageUtils.resizeImageAsync.(Anon_3),33,27,2,4,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+325,3080,Anonymous Class,com.android.mms.ui.MessageUtils.resizeImageAsync.(Anon_3).run.(Anon_4),5,5,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+326,3088,Anonymous Class,com.android.mms.ui.MessageUtils.showErrorDialog.(Anon_1),7,7,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+327,3092,Anonymous Class,com.android.mms.ui.MessageUtils.viewMmsMessageAttachment.(Anon_8),16,15,0,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+328,3094,Anonymous Class,com.android.mms.ui.MessageUtils.viewMmsMessageAttachment.(Anon_9),7,5,0,2,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+329,3098,Public Class,com.android.mms.ui.MessagingPreferenceActivity,374,287,48,40,2.0,8.0,0.0,3.0,15.0,17.0,23.0,20.0,20.0,0.0,10.0,3.0,7.0,2.0,87.0,1
+330,3099,Anonymous Class,com.android.mms.ui.MessagingPreferenceActivity.(Anon_1),5,5,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1
+331,3101,Anonymous Class,com.android.mms.ui.MessagingPreferenceActivity.(Anon_2),5,5,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+332,3109,Anonymous Class,com.android.mms.ui.MessagingPreferenceActivity.onCreateDialog.(Anon_3),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+333,3125,Public Class,com.android.mms.ui.MiniPreferenceActivity,51,40,6,5,1.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,50.0,0
+334,3126,Anonymous Class,com.android.mms.ui.MiniPreferenceActivity.(Anon_2),12,11,0,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+335,3129,Anonymous Class,com.android.mms.ui.MiniPreferenceActivity.onCreate.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+336,3131,Public Class,com.android.mms.ui.MmsThumbnailPresenter,83,68,11,4,1.0,11.0,0.0,0.0,1.0,8.0,3.0,8.0,15.0,0.0,3.0,1.0,4.0,2.0,79.0,1
+337,3132,Anonymous Class,com.android.mms.ui.MmsThumbnailPresenter.(Anon_1),24,23,0,1,2.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+338,3142,Public Class,com.android.mms.ui.MultiPartSmsTests,62,22,2,38,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,11.0,0.0,0.0,1.0,1.0,3.0,0.0,0
+339,3145,Public Class,com.android.mms.ui.NoConfirmationSendService,66,48,8,10,1.0,3.0,0.0,0.0,1.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,1
+340,3148,Public Class,com.android.mms.ui.NumberPickerDialog,94,59,12,25,2.0,1.0,0.0,0.0,1.0,5.0,2.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,40.0,0
+341,3156,Public Abstract Class,com.android.mms.ui.Presenter,36,25,8,3,2.0,3.0,2.0,0.0,0.0,7.0,3.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,53.0,0
+342,3164,Public Class,com.android.mms.ui.PresenterFactory,34,27,3,4,1.0,3.0,0.0,1.0,2.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1
+343,3166,Public Class,com.android.mms.ui.QuickContactDivot,141,104,25,13,2.0,0.0,0.0,0.0,0.0,13.0,5.0,13.0,13.0,0.0,3.0,0.0,10.0,2.0,76.0,0
+344,3180,Public Class,com.android.mms.ui.RecipientListActivity,114,93,16,5,1.0,5.0,0.0,0.0,1.0,4.0,1.0,4.0,4.0,0.0,0.0,2.0,2.0,2.0,50.0,1
+345,3181,Private Static Class,com.android.mms.ui.RecipientListActivity.RecipientListAdapter,45,38,7,0,1.0,2.0,0.0,0.0,0.0,2.0,3.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+346,3188,Public Class,com.android.mms.ui.RecipientsEditor,450,319,67,66,1.0,7.0,0.0,5.0,0.0,16.0,5.0,21.0,21.0,0.0,6.0,1.0,14.0,2.0,86.0,1
+347,3189,Private Class,com.android.mms.ui.RecipientsEditor.AddressValidator,10,8,1,1,2.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+348,3192,Static Class,com.android.mms.ui.RecipientsEditor.RecipientContextMenuInfo,7,6,1,0,2.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0
+349,3195,Anonymous Class,com.android.mms.ui.RecipientsEditor.RecipientsEditor.(Anon_1),32,27,3,3,1.0,1.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,33.0,0
+350,3199,Private Class,com.android.mms.ui.RecipientsEditor.RecipientsEditorTokenizer,104,80,16,8,2.0,1.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,0
+351,3224,Public Class,com.android.mms.ui.SearchActivity,358,235,53,74,1.0,2.0,0.0,0.0,0.0,4.0,3.0,4.0,4.0,0.0,1.0,0.0,3.0,2.0,75.0,0
+352,3225,Anonymous Class,com.android.mms.ui.SearchActivity.(Anon_1),7,7,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+353,3227,Public Static Class,com.android.mms.ui.SearchActivity.TextViewSnippet,116,76,22,19,1.0,0.0,0.0,0.0,2.0,5.0,3.0,5.0,5.0,0.0,0.0,1.0,4.0,2.0,68.0,0
+354,3235,Anonymous Class,com.android.mms.ui.SearchActivity.onCreate.(Anon_2),18,16,1,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+355,3237,Anonymous Class,com.android.mms.ui.SearchActivity.onCreate.(Anon_3),85,63,11,12,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0
+356,3239,Anonymous Class,com.android.mms.ui.SearchActivity.onCreate.(Anon_3).onQueryComplete.(Anon_4),38,28,6,5,1.0,4.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+357,3241,Anonymous Class,com.android.mms.ui.SearchActivity.onCreate.(Anon_3).onQueryComplete.(Anon_4).bindView.(Anon_5),8,8,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+358,3246,Public Class,com.android.mms.ui.SlideEditorActivity,741,616,97,32,1.0,23.0,0.0,0.0,29.0,21.0,24.0,21.0,21.0,0.0,14.0,5.0,2.0,2.0,89.0,1
+359,3247,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_1),7,7,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+360,3249,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_11),36,34,2,0,2.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+361,3251,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_2),17,16,0,1,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+362,3253,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_3),6,6,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+363,3255,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_4),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+364,3257,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_5),12,12,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+365,3259,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_6),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+366,3261,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_7),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+367,3263,Anonymous Class,com.android.mms.ui.SlideEditorActivity.(Anon_8),7,7,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+368,3284,Anonymous Class,com.android.mms.ui.SlideEditorActivity.showDurationDialog.(Anon_9),17,17,0,1,1.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+369,3287,Anonymous Class,com.android.mms.ui.SlideEditorActivity.showLayoutSelectorDialog.(Anon_10),12,12,0,2,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+370,3290,Public Class,com.android.mms.ui.SlideListItemView,131,85,28,18,2.0,0.0,0.0,0.0,1.0,22.0,4.0,22.0,22.0,0.0,0.0,1.0,21.0,2.0,87.0,1
+371,3313,Public Class,com.android.mms.ui.SlideView,502,410,47,45,2.0,4.0,0.0,0.0,4.0,31.0,16.0,31.0,31.0,0.0,3.0,1.0,27.0,2.0,87.0,1
+372,3314,Anonymous Class,com.android.mms.ui.SlideView.(Anon_1),20,20,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+373,3316,Private Class,com.android.mms.ui.SlideView.Position,8,8,0,0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+374,3322,Anonymous Class,com.android.mms.ui.SlideView.enableMMSConformanceMode.(Anon_2),21,20,0,1,1.0,3.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,0.0,0
+375,3325,Anonymous Class,com.android.mms.ui.SlideView.enableMMSConformanceMode.(Anon_3),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+376,3327,Anonymous Class,com.android.mms.ui.SlideView.enableMMSConformanceMode.(Anon_4),16,15,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+377,3374,Public Class,com.android.mms.ui.SlideshowActivity,357,286,34,37,2.0,11.0,0.0,1.0,3.0,8.0,6.0,9.0,9.0,0.0,2.0,3.0,4.0,2.0,72.0,1
+378,3375,Private Class,com.android.mms.ui.SlideshowActivity.SmilPlayerController,65,42,12,11,2.0,1.0,0.0,0.0,0.0,12.0,2.0,12.0,12.0,0.0,0.0,0.0,12.0,1.0,66.0,0
+379,3389,Anonymous Class,com.android.mms.ui.SlideshowActivity.handleEvent.(Anon_4),7,7,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+380,3392,Anonymous Class,com.android.mms.ui.SlideshowActivity.initMediaController.(Anon_2),4,4,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+381,3394,Anonymous Class,com.android.mms.ui.SlideshowActivity.initMediaController.(Anon_3),4,4,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+382,3398,Anonymous Class,com.android.mms.ui.SlideshowActivity.onCreate.(Anon_1),59,50,3,6,1.0,10.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,2.0,0.0,0
+383,3406,Public Class,com.android.mms.ui.SlideshowAttachmentView,115,71,27,18,2.0,0.0,0.0,0.0,1.0,22.0,2.0,22.0,22.0,0.0,0.0,1.0,21.0,2.0,79.0,1
+384,3429,Public Class,com.android.mms.ui.SlideshowEditActivity,423,338,67,18,1.0,6.0,0.0,0.0,12.0,17.0,10.0,17.0,17.0,0.0,6.0,7.0,4.0,2.0,75.0,1
+385,3430,Anonymous Class,com.android.mms.ui.SlideshowEditActivity.(Anon_1),8,8,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+386,3432,Private Static Class,com.android.mms.ui.SlideshowEditActivity.SlideListAdapter,45,36,8,1,1.0,6.0,0.0,0.0,0.0,3.0,4.0,3.0,3.0,0.0,1.0,0.0,2.0,2.0,33.0,0
+387,3453,Public Class,com.android.mms.ui.SlideshowEditor,174,114,24,36,1.0,9.0,0.0,0.0,2.0,21.0,2.0,21.0,21.0,0.0,0.0,0.0,21.0,1.0,35.0,1
+388,3475,Public Class,com.android.mms.ui.SlideshowPresenter,274,210,32,32,1.0,16.0,0.0,0.0,3.0,18.0,6.0,18.0,25.0,0.0,4.0,6.0,8.0,2.0,88.0,1
+389,3476,Anonymous Class,com.android.mms.ui.SlideshowPresenter.(Anon_1),18,16,0,2,2.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+390,3486,Anonymous Class,com.android.mms.ui.SlideshowPresenter.onModelChanged.(Anon_2),4,4,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+391,3488,Anonymous Class,com.android.mms.ui.SlideshowPresenter.onModelChanged.(Anon_3),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+392,3490,Anonymous Class,com.android.mms.ui.SlideshowPresenter.onModelChanged.(Anon_4),4,4,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+393,3492,Anonymous Class,com.android.mms.ui.SlideshowPresenter.onModelChanged.(Anon_5),4,4,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+394,3504,Public Class,com.android.mms.ui.SmsStorageMonitor,33,30,3,0,1.0,0.0,0.0,0.0,1.0,3.0,2.0,3.0,3.0,0.0,2.0,0.0,1.0,2.0,22.0,0
+395,3508,Public Class,com.android.mms.ui.SmsStressTest,54,41,3,11,1.0,1.0,0.0,0.0,2.0,3.0,3.0,3.0,12.0,0.0,0.0,2.0,1.0,3.0,22.0,0
+396,3512,Public Class,com.android.mms.ui.SmsTest,228,175,19,36,1.0,7.0,2.0,0.0,1.0,9.0,10.0,9.0,9.0,0.0,2.0,6.0,1.0,2.0,81.0,0
+397,3513,Anonymous Class,com.android.mms.ui.SmsTest.(Anon_1),10,9,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+398,3515,Private Abstract Class,com.android.mms.ui.SmsTest.MessageRunnable,7,6,1,0,2.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+399,3526,Public Class,com.android.mms.ui.UriImage,515,403,46,72,1.0,5.0,0.0,3.0,6.0,11.0,7.0,14.0,14.0,0.0,4.0,0.0,10.0,1.0,74.0,0
+400,3541,Public Class,com.android.mms.ui.VideoAttachmentView,129,79,28,22,2.0,0.0,0.0,1.0,1.0,22.0,1.0,23.0,23.0,0.0,0.0,1.0,22.0,2.0,86.0,1
+401,3570,Public Class,com.android.mms.ui.WarnOfStorageLimitsActivity,95,51,16,28,3.0,1.0,0.0,0.0,2.0,7.0,2.0,7.0,7.0,0.0,0.0,2.0,5.0,2.0,57.0,1
+402,3579,Public Class,com.android.mms.util.AddressUtils,52,37,7,8,1.0,1.0,0.0,2.0,2.0,1.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,1.0,66.0,1
+403,3583,Abstract Class,com.android.mms.util.BackgroundLoaderManager,130,68,17,45,1.0,2.0,2.0,1.0,2.0,6.0,4.0,7.0,7.0,1.0,0.0,1.0,5.0,1.0,75.0,1
+404,3585,Private Static Class,com.android.mms.util.BackgroundLoaderManager.BackgroundLoaderThreadFactory,20,13,4,3,2.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,25.0,0
+405,3595,Public Class,com.android.mms.util.BlobCache,576,446,63,72,2.0,1.0,0.0,7.0,18.0,21.0,21.0,28.0,28.0,8.0,11.0,0.0,9.0,1.0,86.0,1
+406,3598,Public Static Class,com.android.mms.util.BlobCache.LookupRequest,5,5,0,3,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+407,3625,Public Class,com.android.mms.util.CacheManager,62,51,6,5,1.0,2.0,0.0,3.0,5.0,0.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,1.0,50.0,1
+408,3629,Public Class,com.android.mms.util.DownloadManager,229,192,32,5,1.0,2.0,0.0,5.0,11.0,6.0,6.0,11.0,11.0,3.0,2.0,0.0,6.0,1.0,80.0,1
+409,3630,Anonymous Class,com.android.mms.util.DownloadManager.(Anon_1),16,15,1,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+410,3632,Anonymous Class,com.android.mms.util.DownloadManager.(Anon_2),21,20,1,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+411,3644,Anonymous Class,com.android.mms.util.DownloadManager.markState.(Anon_3),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+412,3646,Anonymous Class,com.android.mms.util.DownloadManager.markState.(Anon_4),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+413,3649,Anonymous Class,com.android.mms.util.DownloadManager.showErrorCodeToast.(Anon_5),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+414,3651,Public Class,com.android.mms.util.DraftCache,227,166,34,29,1.0,2.0,0.0,2.0,4.0,11.0,7.0,13.0,13.0,0.0,3.0,0.0,10.0,1.0,77.0,0
+415,3664,Anonymous Class,com.android.mms.util.DraftCache.refresh.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+416,3669,Public Class,com.android.mms.util.HttpUtilsTests,33,14,5,14,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+417,3672,Public Class,com.android.mms.util.ImageCacheService,133,108,16,9,1.0,3.0,0.0,5.0,8.0,4.0,3.0,9.0,9.0,0.0,2.0,0.0,7.0,1.0,83.0,1
+418,3674,Public Static Class,com.android.mms.util.ImageCacheService.ImageData,8,8,0,0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+419,3691,Public Class,com.android.mms.util.NullItemLoadedFuture,20,10,3,7,2.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+420,3695,Public Class,com.android.mms.util.PduLoaderManager,202,155,24,24,1.0,7.0,0.0,0.0,5.0,5.0,3.0,5.0,12.0,0.0,0.0,0.0,5.0,2.0,50.0,1
+421,3696,Public Static Class,com.android.mms.util.PduLoaderManager.PduLoaded,9,8,1,0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+422,3699,Public Class,com.android.mms.util.PduLoaderManager.PduTask,68,61,4,3,2.0,3.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+423,3702,Anonymous Class,com.android.mms.util.PduLoaderManager.PduTask.run.(Anon_2),26,22,2,2,1.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+424,3706,Anonymous Class,com.android.mms.util.PduLoaderManager.getPdu.(Anon_1),16,12,3,2,2.0,2.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,33.0,0
+425,3712,Public Class,com.android.mms.util.PhoneNumberComparisonTest,17,12,3,2,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+426,3714,Public Class,com.android.mms.util.PhoneNumberFormatter,48,28,6,15,1.0,2.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,1.0,0.0,0
+427,3716,Private Static Class,com.android.mms.util.PhoneNumberFormatter.TextWatcherLoadAsyncTask,35,20,4,12,1.0,0.0,0.0,0.0,0.0,3.0,2.0,3.0,3.0,0.0,0.0,2.0,1.0,2.0,33.0,0
+428,3721,Public Class,com.android.mms.util.RateController,129,108,17,4,1.0,0.0,0.0,2.0,13.0,5.0,3.0,7.0,7.0,0.0,2.0,0.0,5.0,1.0,71.0,1
+429,3722,Anonymous Class,com.android.mms.util.RateController.(Anon_1),15,14,1,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+430,3731,Public Abstract Class,com.android.mms.util.Recycler,440,376,53,16,1.0,4.0,2.0,4.0,5.0,11.0,0.0,15.0,15.0,0.0,0.0,5.0,10.0,1.0,87.0,1
+431,3732,Public Static Class,com.android.mms.util.Recycler.MmsRecycler,194,173,17,7,1.0,1.0,0.0,0.0,8.0,9.0,1.0,9.0,24.0,0.0,1.0,5.0,3.0,2.0,77.0,0
+432,3742,Public Static Class,com.android.mms.util.Recycler.SmsRecycler,149,133,13,5,1.0,2.0,0.0,0.0,12.0,7.0,1.0,7.0,22.0,0.0,0.0,5.0,2.0,2.0,71.0,0
+433,3765,Public Class,com.android.mms.util.SendIntentTests,21,10,2,10,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+434,3767,Public Class,com.android.mms.util.SendingProgressTokenManager,34,29,5,0,1.0,0.0,0.0,3.0,5.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,1
+435,3771,Public Generic Class,com.android.mms.util.SimpleCache,116,64,16,36,1.0,2.0,0.0,1.0,0.0,5.0,2.0,6.0,6.0,0.0,1.0,0.0,5.0,1.0,16.0,0
+436,3772,Private Class,com.android.mms.util.SimpleCache.HardReferenceMap,14,11,3,0,1.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+437,3777,Private Class,com.android.mms.util.SimpleCache.SoftReferenceMap,18,11,3,4,1.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+438,3787,Public Class,com.android.mms.util.SmsReceiverServiceTests,29,15,4,10,1.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,100.0,0
+439,3790,Public Class,com.android.mms.util.ThumbnailManager,498,365,70,66,1.0,9.0,0.0,0.0,11.0,9.0,3.0,9.0,16.0,0.0,2.0,0.0,7.0,2.0,75.0,0
+440,3791,Public Static Class,com.android.mms.util.ThumbnailManager.ImageLoaded,9,8,1,0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+441,3794,Public Class,com.android.mms.util.ThumbnailManager.ThumbnailTask,304,243,39,22,2.0,6.0,0.0,0.0,0.0,16.0,2.0,16.0,16.0,0.0,14.0,0.0,2.0,1.0,81.0,0
+442,3811,Anonymous Class,com.android.mms.util.ThumbnailManager.ThumbnailTask.run.(Anon_2),45,38,4,3,1.0,7.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+443,3819,Anonymous Class,com.android.mms.util.ThumbnailManager.getThumbnail.(Anon_1),18,15,3,1,2.0,2.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,33.0,0
+444,3825,Public Class,com.android.mms.util.VerifyRecipientUnitTests,34,21,4,9,1.0,1.0,0.0,0.0,0.0,2.0,3.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,33.0,0
+445,3828,Public Class,com.android.mms.util.VideoCaptureTests,24,13,2,14,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+446,3832,Public Class,com.android.mms.widget.MmsWidgetProvider,96,63,14,19,1.0,4.0,0.0,2.0,2.0,2.0,0.0,4.0,4.0,0.0,1.0,0.0,3.0,2.0,0.0,1
+447,3837,Public Class,com.android.mms.widget.MmsWidgetService,313,238,37,38,1.0,2.0,0.0,0.0,2.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+448,3838,Private Static Class,com.android.mms.widget.MmsWidgetService.MmsFactory,296,227,34,35,3.0,8.0,0.0,0.0,5.0,17.0,6.0,17.0,17.0,0.0,6.0,0.0,11.0,1.0,82.0,0
+449,3858,Public Class,com.android.smsautoreply.AutoReplyActivity,72,58,8,6,1.0,1.0,0.0,0.0,2.0,2.0,1.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+450,3859,Private Class,com.android.smsautoreply.AutoReplyActivity.SmsMessageReceiver,44,38,5,1,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,2.0,0.0,1.0,2.0,0.0,0
+451,3910,Public Class,org.w3c.dom.events.EventException,22,8,1,13,1.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0

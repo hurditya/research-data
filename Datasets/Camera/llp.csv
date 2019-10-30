@@ -1,0 +1,255 @@
+,Unnamed: 0,Kind,Name,CountLine,CountLineCode,CountLineBlank,CountLineComment,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclClassMethod,CountDeclClassVariable,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,MaxInheritanceTree,PercentLackOfCohesion,Fault
+0,4,Class,Align,250,176,44,43,0.0,4.0,0.0,0.0,11.0,7.0,12.0,7.0,7.0,,0.0,0.0,7.0,0.0,67.0,1
+1,16,Class,Blend,1428,1056,202,165,0.0,11.0,0.0,0.0,13.0,19.0,13.0,19.0,19.0,,2.0,13.0,4.0,0.0,84.0,1
+2,38,Class,BlendRect,5,5,0,0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1
+3,39,Class,CDelaunay,606,535,45,18,0.0,4.0,0.0,0.0,0.0,31.0,10.0,31.0,31.0,,25.0,0.0,6.0,0.0,82.0,1
+4,71,Class,CSite,24,21,3,0,0.0,3.0,0.0,0.0,0.0,12.0,4.0,12.0,12.0,,0.0,0.0,12.0,0.0,79.0,1
+5,131,Class,FrameBuffer,109,100,6,3,0.0,0.0,0.0,0.0,0.0,11.0,5.0,11.0,11.0,,2.0,0.0,9.0,0.0,69.0,1
+6,152,Class,ImageUtils,400,278,66,56,0.0,0.0,0.0,12.0,11.0,0.0,0.0,12.0,12.0,,0.0,0.0,12.0,0.0,84.0,1
+7,199,Class,Matrix33,54,29,9,16,0.0,0.0,0.0,1.0,0.0,3.0,1.0,4.0,4.0,,0.0,0.0,4.0,0.0,75.0,1
+8,204,Class,Matrix9,54,29,9,16,0.0,0.0,0.0,1.0,0.0,3.0,1.0,4.0,4.0,,0.0,0.0,4.0,0.0,75.0,1
+9,212,Class,Mosaic,372,218,60,95,0.0,5.0,0.0,0.0,5.0,10.0,17.0,10.0,10.0,,0.0,1.0,9.0,0.0,71.0,1
+10,226,Class,MosaicFrame,62,42,8,14,0.0,2.0,0.0,0.0,0.0,7.0,7.0,7.0,7.0,,0.0,0.0,7.0,0.0,55.0,1
+11,236,Class,MosaicRect,23,17,3,3,0.0,0.0,0.0,0.0,0.0,3.0,4.0,3.0,3.0,,0.0,0.0,3.0,0.0,33.0,1
+12,249,Class,PgmImage,271,208,37,26,0.0,2.0,0.0,0.0,0.0,19.0,8.0,19.0,19.0,,0.0,2.0,17.0,0.0,55.0,1
+13,288,Class,PyramidShort,257,215,33,22,0.0,0.0,0.0,10.0,0.0,0.0,6.0,10.0,10.0,,0.0,0.0,10.0,0.0,50.0,1
+14,300,Abstract Class,Renderer,241,202,33,8,0.0,1.0,3.0,0.0,0.0,18.0,11.0,18.0,18.0,,0.0,7.0,11.0,0.0,85.0,1
+15,331,Class,SurfaceTextureRenderer,174,143,24,7,1.0,0.0,0.0,0.0,0.0,9.0,7.0,9.0,27.0,,2.0,0.0,7.0,1.0,77.0,1
+16,359,Class,WarpRenderer,184,143,29,15,1.0,0.0,0.0,0.0,0.0,8.0,11.0,8.0,26.0,,2.0,0.0,6.0,1.0,81.0,1
+17,372,Class,YUVinfo,69,45,9,15,0.0,1.0,0.0,2.0,0.0,0.0,3.0,2.0,2.0,,0.0,0.0,2.0,0.0,0.0,1
+18,375,Class,YVURenderer,143,107,23,13,1.0,0.0,0.0,0.0,0.0,6.0,3.0,6.0,24.0,,2.0,0.0,4.0,1.0,66.0,1
+19,408,Public Abstract Class,com.android.camera.ActivityBase,593,459,81,57,2.0,9.0,1.0,2.0,9.0,36.0,24.0,38.0,38.0,0.0,1.0,21.0,16.0,2.0,94.0,0
+20,409,Anonymous Class,com.android.camera.ActivityBase.(Anon_1),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+21,411,Anonymous Class,com.android.camera.ActivityBase.(Anon_2),11,11,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+22,413,Anonymous Class,com.android.camera.ActivityBase.(Anon_3),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+23,415,Protected Class,com.android.camera.ActivityBase.CameraOpenThread,13,13,0,0,1.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+24,417,Private Class,com.android.camera.ActivityBase.HideCameraAppView,16,12,2,2,2.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+25,421,Class,com.android.camera.ActivityBase.MyAppBridge,91,72,16,3,2.0,3.0,0.0,0.0,0.0,16.0,2.0,16.0,16.0,0.0,4.0,0.0,12.0,2.0,71.0,0
+26,438,Private Static Class,com.android.camera.ActivityBase.ScreenOffReceiver,6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+27,478,Public Class,com.android.camera.CameraActivity,400,334,53,15,2.0,10.0,1.0,0.0,6.0,43.0,11.0,43.0,81.0,0.0,3.0,7.0,33.0,3.0,87.0,0
+28,479,Private Class,com.android.camera.CameraActivity.MyOrientationEventListener,16,12,1,3,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+29,525,Public Class,com.android.camera.CameraBackupAgent,10,8,2,0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+30,527,Public Class,com.android.camera.CameraButtonIntentReceiver,31,17,2,12,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+31,529,Public Class,com.android.camera.CameraDisabledException,6,2,0,4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0
+32,530,Public Class,com.android.camera.CameraErrorCallback,15,11,1,3,2.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+33,532,Public Class,com.android.camera.CameraHardwareException,10,5,1,4,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+34,534,Public Class,com.android.camera.CameraHolder,262,204,23,39,1.0,6.0,0.0,4.0,9.0,10.0,10.0,14.0,14.0,0.0,3.0,0.0,11.0,1.0,84.0,0
+35,536,Private Class,com.android.camera.CameraHolder.MyHandler,21,15,1,5,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,1.0,0.0,0.0,1.0,2.0,0.0,0
+36,539,Private Static Class,com.android.camera.CameraHolder.OpenReleaseState,6,6,0,0,1.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+37,553,Public Class,com.android.camera.CameraLaunchPerformance,25,17,2,6,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+38,556,Public Class,com.android.camera.CameraManager,447,362,69,20,1.0,2.0,0.0,1.0,27.0,3.0,6.0,4.0,4.0,1.0,2.0,0.0,1.0,1.0,85.0,0
+39,557,Private Class,com.android.camera.CameraManager.CameraHandler,173,137,31,9,1.0,1.0,0.0,0.0,0.0,7.0,0.0,7.0,7.0,1.0,5.0,0.0,1.0,2.0,0.0,0
+40,566,Public Class,com.android.camera.CameraManager.CameraProxy,198,168,28,2,1.0,2.0,0.0,0.0,0.0,29.0,0.0,29.0,29.0,0.0,1.0,0.0,28.0,1.0,0.0,0
+41,593,Anonymous Class,com.android.camera.CameraManager.CameraProxy.takePicture.(Anon_1),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+42,596,Anonymous Class,com.android.camera.CameraManager.CameraProxy.takePicture2.(Anon_2),12,12,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+43,628,Public Abstract Class,com.android.camera.CameraPreference,38,28,6,4,1.0,1.0,2.0,0.0,0.0,4.0,3.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,44.0,0
+44,638,Public Class,com.android.camera.CameraScreenNail,465,367,45,55,1.0,5.0,0.0,0.0,9.0,33.0,21.0,33.0,33.0,0.0,7.0,1.0,25.0,2.0,87.0,0
+45,639,Anonymous Class,com.android.camera.CameraScreenNail.(Anon_1),10,9,1,0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+46,684,Public Class,com.android.camera.CameraSettings,544,457,54,35,1.0,11.0,0.0,17.0,25.0,11.0,4.0,28.0,28.0,0.0,13.0,0.0,15.0,1.0,88.0,0
+47,713,Public Class,com.android.camera.CameraTestRunner,18,16,2,0,1.0,5.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+48,716,Public Class,com.android.camera.CaptureAnimManager,120,94,13,21,1.0,1.0,0.0,0.0,7.0,7.0,9.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,66.0,0
+49,724,Public Class,com.android.camera.ComboPreferences,303,256,37,13,3.0,3.0,0.0,5.0,1.0,18.0,4.0,23.0,23.0,0.0,5.0,0.0,18.0,1.0,78.0,0
+50,726,Private Class,com.android.camera.ComboPreferences.MyEditor,93,80,11,2,2.0,1.0,0.0,0.0,0.0,11.0,2.0,11.0,11.0,1.0,0.0,0.0,10.0,1.0,9.0,0
+51,760,Public Class,com.android.camera.CountDownTimerPreference,23,22,1,1,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,23.0,0.0,1.0,0.0,1.0,3.0,0.0,0
+52,763,Public Class,com.android.camera.DisableCameraReceiver,56,45,7,4,1.0,0.0,0.0,0.0,3.0,4.0,0.0,4.0,4.0,0.0,3.0,0.0,1.0,2.0,0.0,0
+53,768,Public Class,com.android.camera.EffectsRecorder,1199,970,137,92,1.0,6.0,0.0,1.0,61.0,48.0,33.0,49.0,49.0,3.0,21.0,0.0,25.0,1.0,93.0,0
+54,773,Static Class,com.android.camera.EffectsRecorder.SerializableInvocationHandler,32,31,1,0,3.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+55,797,Anonymous Class,com.android.camera.EffectsRecorder.raiseError.(Anon_2),9,9,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+56,801,Anonymous Class,com.android.camera.EffectsRecorder.sendMessage.(Anon_1),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+57,828,Public Class,com.android.camera.Exif,46,42,3,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+58,830,Public Class,com.android.camera.FocusOverlayManager,501,370,66,76,1.0,9.0,0.0,0.0,8.0,38.0,22.0,38.0,38.0,1.0,10.0,0.0,27.0,1.0,88.0,0
+59,839,Private Class,com.android.camera.FocusOverlayManager.MainHandler,16,15,1,0,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+60,879,Public Class,com.android.camera.IconListPreference,90,77,12,1,1.0,1.0,1.0,0.0,0.0,11.0,5.0,11.0,32.0,0.0,1.0,0.0,10.0,3.0,72.0,0
+61,891,Public Class,com.android.camera.IntArray,27,23,4,0,1.0,0.0,0.0,0.0,1.0,3.0,2.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,16.0,0
+62,895,Public Class,com.android.camera.ListPreference,153,119,22,12,1.0,1.0,2.0,0.0,1.0,17.0,6.0,17.0,21.0,0.0,1.0,1.0,15.0,2.0,77.0,0
+63,913,Public Class,com.android.camera.LocationManager,157,134,16,7,1.0,2.0,0.0,0.0,1.0,5.0,5.0,5.0,5.0,0.0,2.0,0.0,3.0,1.0,52.0,0
+64,917,Private Class,com.android.camera.LocationManager.LocationListener,60,51,6,3,2.0,2.0,0.0,0.0,0.0,6.0,3.0,6.0,6.0,0.0,0.0,0.0,6.0,1.0,50.0,0
+65,929,Class,com.android.camera.MediaSaver,109,88,11,14,1.0,3.0,0.0,0.0,2.0,6.0,3.0,6.0,6.0,0.0,1.0,0.0,5.0,2.0,55.0,0
+66,933,Private Static Class,com.android.camera.MediaSaver.SaveRequest,9,9,0,0,1.0,1.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+67,939,Public Class,com.android.camera.Mosaic,188,27,19,142,1.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+68,940,Public Class,com.android.camera.MosaicFrameProcessor,216,155,31,31,1.0,2.0,0.0,1.0,10.0,13.0,20.0,14.0,14.0,0.0,2.0,0.0,12.0,1.0,81.0,0
+69,957,Public Class,com.android.camera.MosaicPreviewRenderer,227,184,35,10,1.0,2.0,0.0,2.0,5.0,7.0,15.0,9.0,9.0,0.0,3.0,0.0,6.0,1.0,91.0,0
+70,958,Private Class,com.android.camera.MosaicPreviewRenderer.EGLHandler,126,106,15,5,1.0,2.0,0.0,0.0,5.0,8.0,0.0,8.0,8.0,0.0,5.0,0.0,3.0,2.0,0.0,0
+71,976,Public Class,com.android.camera.MosaicRenderer,71,14,7,50,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+72,978,Public Class,com.android.camera.OnScreenHint,160,102,15,43,1.0,0.0,0.0,1.0,1.0,6.0,12.0,7.0,7.0,0.0,3.0,0.0,4.0,1.0,75.0,0
+73,979,Anonymous Class,com.android.camera.OnScreenHint.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+74,981,Anonymous Class,com.android.camera.OnScreenHint.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+75,990,Class,com.android.camera.PanoProgressBar,163,134,19,10,1.0,1.0,0.0,0.0,4.0,14.0,14.0,14.0,14.0,0.0,1.0,2.0,11.0,2.0,80.0,0
+76,1007,Public Class,com.android.camera.PanoUtil,65,57,7,2,1.0,0.0,0.0,3.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+77,1011,Public Class,com.android.camera.PanoramaModule,1234,985,150,105,5.0,25.0,0.0,1.0,16.0,64.0,58.0,65.0,65.0,1.0,31.0,0.0,33.0,1.0,94.0,0
+78,1012,Private Static Class,com.android.camera.PanoramaModule.FlipBitmapDrawable,17,15,2,0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+79,1015,Private Class,com.android.camera.PanoramaModule.MosaicJpeg,20,18,2,0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+80,1018,Private Class,com.android.camera.PanoramaModule.PanoOrientationEventListener,22,16,1,5,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+81,1021,Private Class,com.android.camera.PanoramaModule.WaitProcessorTask,29,27,1,2,1.0,3.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,0.0,0
+82,1028,Anonymous Class,com.android.camera.PanoramaModule.configMosaicPreview.(Anon_4),26,25,1,1,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+83,1041,Anonymous Class,com.android.camera.PanoramaModule.init.(Anon_1),30,27,1,2,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+84,1043,Anonymous Class,com.android.camera.PanoramaModule.init.(Anon_2),42,42,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+85,1045,Anonymous Class,com.android.camera.PanoramaModule.init.(Anon_2).handleMessage.(Anon_3),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+86,1077,Anonymous Class,com.android.camera.PanoramaModule.reportProgress.(Anon_9),23,21,1,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+87,1079,Anonymous Class,com.android.camera.PanoramaModule.reportProgress.(Anon_9).run.(Anon_10),5,5,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+88,1086,Anonymous Class,com.android.camera.PanoramaModule.saveHighResMosaic.(Anon_11),26,25,1,2,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+89,1090,Anonymous Class,com.android.camera.PanoramaModule.setViews.(Anon_7),7,7,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+90,1092,Anonymous Class,com.android.camera.PanoramaModule.setViews.(Anon_8),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+91,1102,Anonymous Class,com.android.camera.PanoramaModule.startCapture.(Anon_5),17,17,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+92,1106,Anonymous Class,com.android.camera.PanoramaModule.stopCapture.(Anon_6),15,14,1,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+93,1111,Public Class,com.android.camera.PhotoController,195,167,15,13,4.0,12.0,0.0,1.0,2.0,11.0,5.0,12.0,25.0,0.0,2.0,2.0,8.0,2.0,77.0,0
+94,1114,Anonymous Class,com.android.camera.PhotoController.initialize.(Anon_1),15,14,0,1,2.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+95,1116,Anonymous Class,com.android.camera.PhotoController.initialize.(Anon_2),13,11,0,2,2.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+96,1118,Anonymous Class,com.android.camera.PhotoController.initialize.(Anon_3),8,8,0,0,2.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+97,1130,Public Class,com.android.camera.PhotoModule,2393,1851,296,253,10.0,46.0,0.0,0.0,28.0,110.0,92.0,110.0,110.0,2.0,57.0,0.0,51.0,1.0,96.0,0
+98,1131,Anonymous Class,com.android.camera.PhotoModule.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+99,1133,Anonymous Class,com.android.camera.PhotoModule.(Anon_2),9,8,1,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+100,1135,Private Class,com.android.camera.PhotoModule.AutoFocusCallback,13,12,1,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+101,1137,Private Class,com.android.camera.PhotoModule.AutoFocusMoveCallback,8,8,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+102,1139,Private Class,com.android.camera.PhotoModule.CameraStartUpThread,41,33,4,4,1.0,5.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+103,1143,Private Class,com.android.camera.PhotoModule.JpegPictureCallback,99,77,7,16,2.0,9.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+104,1146,Private Class,com.android.camera.PhotoModule.MainHandler,99,77,12,10,1.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+105,1148,Private Static Class,com.android.camera.PhotoModule.NamedImages,38,31,6,1,1.0,2.0,0.0,0.0,0.0,4.0,3.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,58.0,0
+106,1149,Private Static Class,com.android.camera.PhotoModule.NamedImages.NamedEntity,4,4,0,0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+107,1154,Private Class,com.android.camera.PhotoModule.PostViewPictureCallback,10,10,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+108,1156,Private Class,com.android.camera.PhotoModule.RawPictureCallback,9,9,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+109,1158,Private Class,com.android.camera.PhotoModule.ShutterCallback,9,9,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+110,1160,Private Class,com.android.camera.PhotoModule.ZoomChangeListener,30,26,2,2,2.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+111,1165,Anonymous Class,com.android.camera.PhotoModule.addIdleHandler.(Anon_6),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+112,1187,Anonymous Class,com.android.camera.PhotoModule.initializeControlByIntent.(Anon_10),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+113,1189,Anonymous Class,com.android.camera.PhotoModule.initializeControlByIntent.(Anon_11),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+114,1191,Anonymous Class,com.android.camera.PhotoModule.initializeControlByIntent.(Anon_8),10,8,0,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+115,1193,Anonymous Class,com.android.camera.PhotoModule.initializeControlByIntent.(Anon_9),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+116,1209,Anonymous Class,com.android.camera.PhotoModule.locationFirstRun.(Anon_3),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+117,1211,Anonymous Class,com.android.camera.PhotoModule.locationFirstRun.(Anon_4),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+118,1213,Anonymous Class,com.android.camera.PhotoModule.locationFirstRun.(Anon_5),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+119,1270,Anonymous Class,com.android.camera.PhotoModule.startFaceDetection.(Anon_7),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+120,1292,Public Class,com.android.camera.PieController,159,135,16,8,1.0,9.0,2.0,0.0,3.0,13.0,7.0,13.0,13.0,0.0,2.0,3.0,8.0,1.0,75.0,0
+121,1295,Anonymous Class,com.android.camera.PieController.addItem.(for_loop_1).(Anon_1),7,7,0,0,2.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+122,1308,Public Class,com.android.camera.PreferenceGroup,56,38,7,11,1.0,1.0,0.0,0.0,0.0,7.0,1.0,7.0,11.0,0.0,0.0,0.0,7.0,2.0,14.0,0
+123,1316,Public Class,com.android.camera.PreferenceInflater,77,62,10,5,1.0,2.0,0.0,0.0,3.0,4.0,1.0,4.0,4.0,0.0,2.0,0.0,2.0,1.0,0.0,0
+124,1321,Public Class,com.android.camera.PreviewFrameLayout,115,85,19,11,2.0,4.0,0.0,0.0,1.0,10.0,4.0,10.0,10.0,0.0,0.0,4.0,6.0,2.0,75.0,0
+125,1334,Public Class,com.android.camera.PreviewGestures,296,265,23,8,2.0,5.0,0.0,0.0,8.0,19.0,17.0,19.0,19.0,0.0,7.0,0.0,12.0,1.0,85.0,0
+126,1335,Anonymous Class,com.android.camera.PreviewGestures.(Anon_1),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+127,1356,Public Class,com.android.camera.ProxyLauncher,24,20,4,0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,0.0,0
+128,1359,Public Class,com.android.camera.RecordLocationPreference,35,25,6,4,1.0,1.0,0.0,2.0,3.0,2.0,1.0,4.0,36.0,0.0,0.0,0.0,4.0,4.0,50.0,0
+129,1364,Public Class,com.android.camera.RotateDialogController,137,117,20,1,2.0,1.0,0.0,0.0,2.0,10.0,13.0,10.0,10.0,0.0,3.0,0.0,7.0,1.0,73.0,0
+130,1374,Anonymous Class,com.android.camera.RotateDialogController.showAlertDialog.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+131,1376,Anonymous Class,com.android.camera.RotateDialogController.showAlertDialog.(Anon_2),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+132,1379,Public Class,com.android.camera.SecureCameraActivity,2,2,0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,81.0,0.0,0.0,0.0,0.0,4.0,0.0,0
+133,1380,Public Class,com.android.camera.ShutterButton,106,57,10,39,1.0,1.0,0.0,0.0,0.0,7.0,3.0,7.0,7.0,0.0,1.0,1.0,5.0,2.0,71.0,0
+134,1388,Anonymous Class,com.android.camera.ShutterButton.drawableStateChanged.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+135,1393,Public Class,com.android.camera.SoundClips,163,126,20,18,1.0,3.0,0.0,1.0,3.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+136,1394,Private Static Class,com.android.camera.SoundClips.MediaActionSoundPlayer,40,33,3,4,2.0,1.0,0.0,0.0,1.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+137,1401,Private Static Class,com.android.camera.SoundClips.SoundPoolPlayer,101,76,13,13,3.0,0.0,0.0,0.0,4.0,4.0,6.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,33.0,0
+138,1407,Public Class,com.android.camera.StaticBitmapScreenNail,10,8,1,1,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+139,1410,Public Class,com.android.camera.Storage,136,103,17,16,1.0,0.0,0.0,8.0,8.0,0.0,0.0,8.0,8.0,0.0,1.0,0.0,7.0,1.0,0.0,0
+140,1419,Public Class,com.android.camera.StressTests,19,10,0,9,1.0,4.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+141,1421,Public Class,com.android.camera.SwitchAnimManager,122,77,14,35,1.0,1.0,0.0,0.0,5.0,6.0,4.0,6.0,6.0,0.0,0.0,0.0,6.0,1.0,54.0,0
+142,1428,Public Class,com.android.camera.Thumbnail,45,38,3,4,1.0,0.0,0.0,3.0,0.0,0.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,1.0,0.0,0
+143,1432,Public Class,com.android.camera.UnitTests,12,8,1,3,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+144,1434,Public Class,com.android.camera.Util,712,534,89,92,1.0,5.0,0.0,50.0,17.0,1.0,0.0,51.0,51.0,0.0,6.0,0.0,45.0,1.0,96.0,0
+145,1436,Private Static Class,com.android.camera.Util.ImageFileNamer,30,20,6,4,1.0,0.0,0.0,0.0,0.0,2.0,3.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,33.0,0
+146,1488,Anonymous Class,com.android.camera.Util.showErrorAndFinish.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+147,1492,Public Class,com.android.camera.VideoController,157,131,20,6,4.0,13.0,0.0,0.0,5.0,9.0,4.0,9.0,22.0,0.0,0.0,2.0,7.0,2.0,64.0,0
+148,1495,Anonymous Class,com.android.camera.VideoController.initialize.(Anon_1),14,12,1,1,2.0,6.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+149,1497,Anonymous Class,com.android.camera.VideoController.initialize.(Anon_2),9,9,0,0,2.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+150,1506,Public Class,com.android.camera.VideoModule,2729,2077,335,332,8.0,43.0,0.0,4.0,15.0,116.0,76.0,120.0,120.0,1.0,73.0,0.0,46.0,1.0,95.0,0
+151,1507,Protected Class,com.android.camera.VideoModule.CameraOpenThread,6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+152,1509,Private Class,com.android.camera.VideoModule.JpegPictureCallback,15,13,2,0,2.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+153,1512,Private Class,com.android.camera.VideoModule.MainHandler,65,49,10,6,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+154,1514,Private Class,com.android.camera.VideoModule.MyBroadcastReceiver,12,12,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+155,1516,Private Class,com.android.camera.VideoModule.SurfaceViewCallback,32,29,3,0,2.0,3.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,0
+156,1521,Private Static Class,com.android.camera.VideoModule.VideoNamer,76,59,7,11,1.0,0.0,0.0,0.0,0.0,7.0,5.0,7.0,7.0,0.0,2.0,0.0,5.0,2.0,62.0,0
+157,1529,Private Class,com.android.camera.VideoModule.ZoomChangeListener,20,17,1,2,2.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+158,1561,Anonymous Class,com.android.camera.VideoModule.init.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+159,1564,Anonymous Class,com.android.camera.VideoModule.initializeControlByIntent.(Anon_5),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+160,1566,Anonymous Class,com.android.camera.VideoModule.initializeControlByIntent.(Anon_6),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+161,1568,Anonymous Class,com.android.camera.VideoModule.initializeControlByIntent.(Anon_7),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+162,1570,Anonymous Class,com.android.camera.VideoModule.initializeControlByIntent.(Anon_8),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+163,1578,Anonymous Class,com.android.camera.VideoModule.initializeSurfaceView.(Anon_1),5,5,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+164,1615,Anonymous Class,com.android.camera.VideoModule.onResumeAfterSuper.(Anon_3),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+165,1654,Anonymous Class,com.android.camera.VideoModule.startPreview.(Anon_4),9,9,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+166,1670,Public Class,com.android.camera.activity.CameraActivityTest,26,19,5,2,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,12.0,0.0,0.0,0.0,3.0,3.0,0.0,0
+167,1674,Public Generic Class,com.android.camera.activity.CameraTestCase,193,169,16,9,1.0,5.0,1.0,1.0,1.0,8.0,13.0,9.0,9.0,0.0,1.0,7.0,1.0,2.0,88.0,0
+168,1675,Private Class,com.android.camera.activity.CameraTestCase.AutoFocusCallable,16,14,0,2,2.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+169,1677,Anonymous Class,com.android.camera.activity.CameraTestCase.AutoFocusCallable.call.(Anon_2),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+170,1681,Private Class,com.android.camera.activity.CameraTestCase.TakePictureCallable,19,17,0,2,2.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+171,1683,Anonymous Class,com.android.camera.activity.CameraTestCase.TakePictureCallable.call.(Anon_1),9,9,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+172,1690,Anonymous Class,com.android.camera.activity.CameraTestCase.performClick.(Anon_4),14,14,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+173,1694,Anonymous Class,com.android.camera.activity.CameraTestCase.setUp.(Anon_3),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+174,1698,Public Class,com.android.camera.drawable.TextDrawable,55,45,10,0,1.0,0.0,0.0,0.0,2.0,7.0,4.0,7.0,7.0,0.0,0.0,0.0,7.0,2.0,60.0,0
+175,1707,Public Class,com.android.camera.functional.CameraTest,48,44,2,3,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,2.0,0.0,0
+176,1711,Public Class,com.android.camera.functional.ImageCaptureIntentTest,112,91,20,1,1.0,1.0,0.0,0.0,0.0,9.0,1.0,9.0,9.0,0.0,3.0,1.0,5.0,2.0,44.0,0
+177,1714,Anonymous Class,com.android.camera.functional.ImageCaptureIntentTest.pressCancel.(Anon_2),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+178,1717,Anonymous Class,com.android.camera.functional.ImageCaptureIntentTest.pressDone.(Anon_1),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+179,1725,Public Class,com.android.camera.functional.VideoCaptureIntentTest,221,175,39,12,1.0,2.0,0.0,0.0,1.0,15.0,4.0,15.0,15.0,0.0,5.0,2.0,8.0,2.0,71.0,0
+180,1728,Anonymous Class,com.android.camera.functional.VideoCaptureIntentTest.pressCancel.(Anon_3),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+181,1731,Anonymous Class,com.android.camera.functional.VideoCaptureIntentTest.pressDone.(Anon_2),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+182,1735,Anonymous Class,com.android.camera.functional.VideoCaptureIntentTest.recordVideo.(Anon_1),10,8,0,2,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+183,1748,Public Class,com.android.camera.power.ImageAndVideoCapture,88,67,6,19,1.0,1.0,0.0,0.0,6.0,6.0,1.0,6.0,6.0,0.0,0.0,2.0,4.0,2.0,50.0,0
+184,1756,Public Class,com.android.camera.stress.CameraLatency,117,97,7,13,1.0,1.0,0.0,0.0,3.0,4.0,11.0,4.0,4.0,0.0,0.0,2.0,2.0,2.0,75.0,0
+185,1761,Public Class,com.android.camera.stress.CameraStartUp,125,109,8,9,1.0,1.0,0.0,0.0,3.0,5.0,1.0,5.0,5.0,0.0,3.0,0.0,2.0,2.0,40.0,0
+186,1767,Public Class,com.android.camera.stress.CameraStressTestRunner,38,32,5,4,1.0,2.0,0.0,0.0,3.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,66.0,0
+187,1771,Public Class,com.android.camera.stress.ImageCapture,91,66,12,15,1.0,3.0,0.0,0.0,3.0,6.0,2.0,6.0,6.0,0.0,0.0,2.0,4.0,2.0,66.0,0
+188,1778,Public Class,com.android.camera.stress.ShotToShotLatency,111,92,12,7,1.0,1.0,0.0,0.0,4.0,6.0,1.0,6.0,6.0,0.0,2.0,2.0,2.0,2.0,50.0,0
+189,1781,Anonymous Class,com.android.camera.stress.ShotToShotLatency.cleanupLatencyImages.(Anon_1),4,4,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+190,1787,Public Class,com.android.camera.stress.SwitchPreview,86,68,7,11,1.0,1.0,0.0,0.0,3.0,6.0,3.0,6.0,6.0,0.0,2.0,2.0,2.0,2.0,66.0,0
+191,1794,Public Class,com.android.camera.stress.TestUtil,34,26,5,3,1.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,40.0,0
+192,1800,Public Class,com.android.camera.stress.VideoCapture,83,60,11,14,1.0,3.0,0.0,0.0,3.0,6.0,1.0,6.0,6.0,0.0,0.0,2.0,4.0,2.0,50.0,0
+193,1808,Public Abstract Class,com.android.camera.ui.AbstractSettingPopup,18,14,4,0,1.0,0.0,5.0,0.0,0.0,3.0,2.0,3.0,13.0,0.0,0.0,1.0,2.0,3.0,50.0,0
+194,1812,Public Class,com.android.camera.ui.CameraSwitcher,256,229,25,2,3.0,1.0,0.0,0.0,2.0,21.0,14.0,21.0,31.0,0.0,9.0,1.0,11.0,4.0,86.0,0
+195,1819,Anonymous Class,com.android.camera.ui.CameraSwitcher.animateHidePopup.(Anon_2),8,7,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+196,1822,Anonymous Class,com.android.camera.ui.CameraSwitcher.animateShowPopup.(Anon_3),8,7,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+197,1828,Anonymous Class,com.android.camera.ui.CameraSwitcher.initPopup.(for_loop_1).(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+198,1843,Public Class,com.android.camera.ui.CheckedLinearLayout,37,32,5,0,2.0,0.0,0.0,0.0,1.0,5.0,1.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,19.0,0
+199,1849,Public Class,com.android.camera.ui.CountDownView,95,79,11,5,1.0,2.0,0.0,0.0,2.0,7.0,9.0,7.0,7.0,0.0,1.0,1.0,5.0,2.0,69.0,0
+200,1851,Private Class,com.android.camera.ui.CountDownView.MainHandler,8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+201,1861,Public Class,com.android.camera.ui.EffectSettingPopup,176,142,24,11,3.0,4.0,0.0,0.0,1.0,8.0,8.0,8.0,21.0,0.0,0.0,1.0,7.0,4.0,53.0,0
+202,1872,Public Class,com.android.camera.ui.ExpandedGridView,14,10,1,3,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+203,1875,Public Class,com.android.camera.ui.FaceView,177,144,17,18,3.0,3.0,0.0,0.0,3.0,14.0,17.0,14.0,14.0,0.0,0.0,1.0,13.0,2.0,83.0,0
+204,1876,Anonymous Class,com.android.camera.ui.FaceView.(Anon_1),11,11,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+205,1897,Public Class,com.android.camera.ui.InLineSettingCheckBox,53,45,7,1,1.0,2.0,0.0,0.0,0.0,6.0,2.0,6.0,14.0,0.0,0.0,2.0,4.0,3.0,50.0,0
+206,1898,Anonymous Class,com.android.camera.ui.InLineSettingCheckBox.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+207,1906,Public Abstract Class,com.android.camera.ui.InLineSettingItem,67,46,9,12,1.0,3.0,2.0,0.0,0.0,8.0,5.0,8.0,8.0,0.0,0.0,3.0,5.0,2.0,74.0,0
+208,1917,Public Class,com.android.camera.ui.InLineSettingMenu,50,41,6,3,1.0,2.0,0.0,0.0,1.0,6.0,1.0,6.0,14.0,0.0,0.0,2.0,4.0,3.0,50.0,0
+209,1924,Public Class,com.android.camera.ui.LayoutChangeHelper,23,20,3,0,2.0,1.0,0.0,0.0,0.0,3.0,3.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,33.0,0
+210,1932,Public Class,com.android.camera.ui.LayoutNotifyView,23,19,4,0,2.0,2.0,0.0,0.0,0.0,4.0,1.0,4.0,4.0,0.0,0.0,1.0,3.0,2.0,50.0,0
+211,1937,Public Class,com.android.camera.ui.ListPrefSettingPopup,86,73,9,4,2.0,5.0,0.0,0.0,1.0,5.0,2.0,5.0,18.0,0.0,0.0,0.0,5.0,4.0,50.0,0
+212,1938,Private Class,com.android.camera.ui.ListPrefSettingPopup.ListPrefSettingAdapter,16,14,1,1,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,1.0,0.0,0.0,1.0,2.0,0.0,0
+213,1948,Public Class,com.android.camera.ui.MoreSettingPopup,168,137,21,11,3.0,5.0,0.0,0.0,1.0,8.0,3.0,8.0,21.0,0.0,0.0,0.0,8.0,4.0,54.0,0
+214,1952,Private Class,com.android.camera.ui.MoreSettingPopup.MoreSettingAdapter,58,50,8,1,1.0,3.0,0.0,0.0,0.0,5.0,3.0,5.0,5.0,1.0,2.0,0.0,2.0,2.0,60.0,0
+215,1968,Public Abstract Class,com.android.camera.ui.OverlayRenderer,73,56,16,1,2.0,1.0,2.0,0.0,1.0,12.0,6.0,12.0,12.0,0.0,0.0,2.0,10.0,1.0,78.0,0
+216,1981,Public Class,com.android.camera.ui.PieItem,176,138,34,4,1.0,1.0,0.0,0.0,2.0,30.0,15.0,30.0,30.0,0.0,0.0,0.0,30.0,1.0,90.0,0
+217,2014,Public Class,com.android.camera.ui.PieRenderer,781,659,79,43,2.0,6.0,0.0,1.0,15.0,44.0,41.0,45.0,57.0,0.0,23.0,0.0,22.0,2.0,92.0,0
+218,2015,Anonymous Class,com.android.camera.ui.PieRenderer.(Anon_1),15,15,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+219,2017,Private Class,com.android.camera.ui.PieRenderer.Disappear,12,12,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+220,2019,Private Class,com.android.camera.ui.PieRenderer.EndAction,17,14,2,1,2.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+221,2023,Private Class,com.android.camera.ui.PieRenderer.LinearAnimation,21,18,3,0,1.0,0.0,0.0,0.0,0.0,3.0,3.0,3.0,3.0,0.0,0.0,1.0,2.0,2.0,33.0,0
+222,2031,Private Class,com.android.camera.ui.PieRenderer.ScaleAnimation,18,15,3,0,1.0,1.0,0.0,0.0,0.0,3.0,2.0,3.0,3.0,0.0,0.0,1.0,2.0,2.0,33.0,0
+223,2046,Anonymous Class,com.android.camera.ui.PieRenderer.fadeIn.(Anon_2),13,11,2,0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+224,2068,Anonymous Class,com.android.camera.ui.PieRenderer.openCurrentItem.(Anon_4),13,11,2,0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+225,2087,Anonymous Class,com.android.camera.ui.PieRenderer.startFadeOut.(Anon_3),8,8,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+226,2089,Public Class,com.android.camera.ui.PopupManager,42,31,7,4,1.0,1.0,0.0,2.0,1.0,3.0,1.0,5.0,5.0,0.0,1.0,0.0,4.0,1.0,60.0,0
+227,2097,Public Class,com.android.camera.ui.PreviewSurfaceView,24,21,3,0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,1.0,0.0,3.0,2.0,0.0,0
+228,2102,Public Class,com.android.camera.ui.RenderOverlay,137,111,25,1,1.0,2.0,0.0,0.0,1.0,11.0,4.0,11.0,11.0,0.0,1.0,0.0,10.0,2.0,70.0,0
+229,2104,Private Class,com.android.camera.ui.RenderOverlay.RenderView,52,46,6,0,1.0,3.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,60.0,0
+230,2128,Public Class,com.android.camera.ui.RotateImageView,145,111,24,14,2.0,0.0,1.0,0.0,2.0,6.0,10.0,6.0,10.0,0.0,0.0,2.0,4.0,3.0,70.0,0
+231,2135,Public Class,com.android.camera.ui.RotateLayout,169,149,11,9,2.0,0.0,1.0,0.0,1.0,10.0,3.0,10.0,10.0,0.0,0.0,4.0,6.0,2.0,63.0,0
+232,2146,Public Class,com.android.camera.ui.RotateTextToast,31,28,3,1,1.0,1.0,0.0,0.0,1.0,2.0,4.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,25.0,0
+233,2147,Anonymous Class,com.android.camera.ui.RotateTextToast.(Anon_1),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+234,2151,Public Class,com.android.camera.ui.Switch,456,350,66,41,1.0,0.0,0.0,0.0,4.0,24.0,27.0,24.0,24.0,0.0,8.0,5.0,11.0,2.0,87.0,0
+235,2176,Public Class,com.android.camera.ui.TimeIntervalPopup,132,104,17,11,1.0,4.0,0.0,0.0,1.0,8.0,10.0,8.0,21.0,0.0,2.0,1.0,5.0,4.0,71.0,0
+236,2181,Anonymous Class,com.android.camera.ui.TimeIntervalPopup.initialize.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+237,2183,Anonymous Class,com.android.camera.ui.TimeIntervalPopup.initialize.(Anon_2),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+238,2191,Public Class,com.android.camera.ui.TimerSettingPopup,118,93,15,10,1.0,3.0,0.0,0.0,1.0,8.0,8.0,8.0,21.0,0.0,2.0,1.0,5.0,4.0,73.0,0
+239,2196,Anonymous Class,com.android.camera.ui.TimerSettingPopup.initialize.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+240,2198,Anonymous Class,com.android.camera.ui.TimerSettingPopup.initialize.(Anon_2),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+241,2206,Public Class,com.android.camera.ui.TwoStateImageView,33,26,4,3,1.0,0.0,1.0,0.0,2.0,4.0,1.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,50.0,0
+242,2211,Public Class,com.android.camera.ui.ZoomRenderer,130,113,16,2,2.0,1.0,0.0,0.0,1.0,11.0,16.0,11.0,23.0,0.0,0.0,0.0,11.0,2.0,76.0,0
+243,2228,Public Class,com.android.camera.unittest.CameraUnitTest,81,68,13,0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,2.0,0.0,0
+244,2249,Class,db_Bucket_f,6,6,0,0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1
+245,2250,Class,db_Bucket_u,6,6,0,0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1
+246,2268,Class,db_CornerDetector_f,126,93,12,21,0.0,0.0,0.0,0.0,0.0,8.0,13.0,8.0,8.0,,0.0,2.0,6.0,0.0,67.0,1
+247,2277,Class,db_CornerDetector_u,196,130,22,44,0.0,0.0,0.0,0.0,0.0,11.0,12.0,11.0,11.0,,0.0,2.0,9.0,0.0,59.0,1
+248,2309,Class,db_FrameToReferenceRegistration,1033,580,204,192,0.0,4.0,0.0,0.0,0.0,32.0,54.0,32.0,32.0,,0.0,7.0,25.0,0.0,86.0,1
+249,2373,Class,db_Matcher_f,116,68,10,38,0.0,1.0,0.0,0.0,0.0,5.0,14.0,5.0,5.0,,0.0,1.0,4.0,0.0,51.0,1
+250,2379,Class,db_Matcher_u,249,158,32,59,0.0,1.0,0.0,0.0,0.0,9.0,19.0,9.0,9.0,,0.0,1.0,8.0,0.0,62.0,1
+251,2444,Class,db_PointInfo_f,19,12,0,7,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1
+252,2445,Class,db_PointInfo_u,19,12,0,7,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1
+253,2522,Class,db_StabilizationSmoother,382,251,48,89,0.0,1.0,0.0,0.0,0.0,22.0,15.0,22.0,22.0,,0.0,4.0,18.0,0.0,84.0,1

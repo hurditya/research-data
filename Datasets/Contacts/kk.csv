@@ -1,0 +1,476 @@
+,Unnamed: 0,Kind,Name,CountLine,CountLineCode,CountLineBlank,CountLineComment,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclClassMethod,CountDeclClassVariable,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,MaxInheritanceTree,PercentLackOfCohesion,Fault
+0,229,Public Class,com.android.contacts.ContactDetailTest,33,18,4,11,1.0,1.0,0.0,0.0,0.0,3.0,2.0,3.0,3.0,0.0,0.0,2.0,1.0,2.0,66.0,0
+1,233,Public Class,com.android.contacts.ContactSaveService,1066,769,136,161,1.0,7.0,0.0,18.0,40.0,23.0,1.0,41.0,41.0,1.0,21.0,1.0,18.0,2.0,92.0,1
+2,260,Anonymous Class,com.android.contacts.ContactSaveService.deliverCallback.(Anon_2),6,5,1,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+3,278,Anonymous Class,com.android.contacts.ContactSaveService.showToast.(Anon_1),6,5,1,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+4,282,Public Abstract Class,com.android.contacts.ContactsActivity,99,75,13,11,2.0,3.0,10.0,2.0,0.0,8.0,1.0,10.0,10.0,0.0,0.0,4.0,6.0,2.0,90.0,1
+5,295,Public Class,com.android.contacts.ContactsApplication,112,84,18,12,1.0,2.0,0.0,2.0,4.0,4.0,2.0,6.0,6.0,0.0,0.0,0.0,6.0,2.0,66.0,1
+6,296,Private Class,com.android.contacts.ContactsApplication.DelayedInitializer,17,14,2,1,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,0
+7,305,Public Class,com.android.contacts.ContactsLaunchPerformance,25,16,3,6,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+8,308,Public Class,com.android.contacts.ContactsSearchManager,47,31,6,10,1.0,1.0,0.0,4.0,1.0,0.0,0.0,4.0,4.0,0.0,1.0,0.0,3.0,1.0,0.0,0
+9,313,Public Class,com.android.contacts.ContactsUtils,112,76,10,27,1.0,1.0,0.0,7.0,2.0,0.0,0.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,85.0,0
+10,322,Public Class,com.android.contacts.ContactsUtilsTests,42,30,9,3,1.0,1.0,0.0,0.0,0.0,6.0,0.0,6.0,6.0,0.0,0.0,0.0,6.0,2.0,0.0,0
+11,329,Public Class,com.android.contacts.GroupListLoader,34,24,4,6,1.0,0.0,0.0,0.0,8.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+12,331,Public Class,com.android.contacts.GroupMemberLoader,93,72,12,20,1.0,2.0,0.0,2.0,0.0,4.0,1.0,6.0,6.0,0.0,4.0,0.0,2.0,2.0,66.0,0
+13,332,Public Static Class,com.android.contacts.GroupMemberLoader.GroupDetailQuery,17,16,1,6,1.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+14,333,Public Static Class,com.android.contacts.GroupMemberLoader.GroupEditorQuery,15,14,1,5,1.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+15,340,Public Class,com.android.contacts.GroupMetaData,51,39,8,4,1.0,0.0,0.0,0.0,0.0,8.0,7.0,8.0,8.0,0.0,0.0,0.0,8.0,1.0,75.0,0
+16,349,Public Class,com.android.contacts.GroupMetaDataLoader,48,35,4,9,1.0,0.0,0.0,1.0,10.0,1.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,2.0,0.0,0
+17,352,Public Class,com.android.contacts.NfcHandler,67,51,5,12,2.0,1.0,0.0,1.0,2.0,2.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,33.0,1
+18,356,Public Class,com.android.contacts.NonPhoneActivity,74,60,8,6,1.0,1.0,0.0,0.0,1.0,2.0,0.0,2.0,12.0,0.0,1.0,1.0,0.0,3.0,0.0,0
+19,357,Public Static Class,com.android.contacts.NonPhoneActivity.NonPhoneDialogFragment,40,35,3,2,2.0,1.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,1.0,0.0,3.0,2.0,0.0,0
+20,364,Public Class,com.android.contacts.RawContactDeltaListTests,542,416,87,39,1.0,6.0,0.0,26.0,13.0,18.0,0.0,44.0,44.0,26.0,0.0,1.0,17.0,2.0,0.0,0
+21,409,Public Class,com.android.contacts.RawContactDeltaTests,327,241,46,40,1.0,2.0,0.0,1.0,6.0,14.0,0.0,15.0,15.0,0.0,0.0,0.0,15.0,2.0,0.0,0
+22,425,Public Class,com.android.contacts.RawContactModifierTests,1175,870,178,129,1.0,7.0,0.0,0.0,11.0,37.0,0.0,37.0,37.0,0.0,1.0,5.0,31.0,2.0,0.0,0
+23,426,Public Static Class,com.android.contacts.RawContactModifierTests.MockContactsSource,66,50,11,5,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+24,467,Public Class,com.android.contacts.SplitAggregateView,218,160,34,24,1.0,4.0,0.0,0.0,1.0,7.0,3.0,7.0,7.0,0.0,5.0,0.0,2.0,2.0,80.0,1
+25,470,Private Static Class,com.android.contacts.SplitAggregateView.RawContactInfo,38,29,6,3,2.0,0.0,0.0,0.0,0.0,3.0,7.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,76.0,0
+26,474,Private Class,com.android.contacts.SplitAggregateView.SplitAggregateAdapter,44,35,6,3,1.0,3.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+27,477,Private Static Class,com.android.contacts.SplitAggregateView.SplitAggregateItemCache,5,5,0,0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+28,479,Anonymous Class,com.android.contacts.SplitAggregateView.SplitAggregateView.(Anon_1),5,4,1,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+29,488,Public Class,com.android.contacts.TypePrecedence,92,64,12,16,1.0,0.0,0.0,2.0,6.0,1.0,0.0,3.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,0
+30,492,Public Class,com.android.contacts.ViewNotificationService,46,30,4,12,1.0,1.0,0.0,0.0,2.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,1
+31,495,Anonymous Class,com.android.contacts.ViewNotificationService.onStartCommand.(Anon_1),20,14,0,6,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+32,498,Public Class,com.android.contacts.activities.ActionBarAdapter,504,364,60,82,3.0,7.0,0.0,0.0,4.0,26.0,13.0,26.0,26.0,0.0,9.0,0.0,17.0,1.0,83.0,1
+33,500,Private Class,com.android.contacts.activities.ActionBarAdapter.CustomArrayAdapter,27,17,3,7,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+34,505,Public Abstract Class,com.android.contacts.activities.ActionBarAdapter.Listener.Action,5,5,0,0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+35,508,Private Class,com.android.contacts.activities.ActionBarAdapter.MyNavigationListener,10,9,1,0,2.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+36,510,Private Class,com.android.contacts.activities.ActionBarAdapter.MyTabListener,17,10,2,5,2.0,1.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,66.0,0
+37,540,Public Class,com.android.contacts.activities.AttachPhotoActivity,212,154,26,32,1.0,9.0,0.0,0.0,7.0,5.0,4.0,5.0,15.0,0.0,2.0,2.0,1.0,3.0,48.0,1
+38,544,Anonymous Class,com.android.contacts.activities.AttachPhotoActivity.loadContact.(Anon_2),12,12,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+39,547,Anonymous Class,com.android.contacts.activities.AttachPhotoActivity.onActivityResult.(Anon_1),5,5,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1
+40,552,Public Class,com.android.contacts.activities.ConfirmAddDetailActivity,809,508,111,192,2.0,14.0,0.0,2.0,8.0,17.0,21.0,19.0,19.0,0.0,15.0,3.0,1.0,2.0,89.0,1
+41,553,Anonymous Class,com.android.contacts.activities.ConfirmAddDetailActivity.(Anon_1),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+42,555,Anonymous Class,com.android.contacts.activities.ConfirmAddDetailActivity.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+43,557,Anonymous Class,com.android.contacts.activities.ConfirmAddDetailActivity.(Anon_3),6,6,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+44,561,Private Static Class,com.android.contacts.activities.ConfirmAddDetailActivity.PersistTask,101,61,19,21,1.0,3.0,0.0,0.0,4.0,4.0,2.0,4.0,4.0,0.0,0.0,3.0,1.0,2.0,25.0,1
+45,567,Private Static Class,com.android.contacts.activities.ConfirmAddDetailActivity.QueryEntitiesTask,81,66,11,4,1.0,2.0,0.0,1.0,0.0,3.0,2.0,4.0,4.0,0.0,1.0,2.0,1.0,2.0,50.0,1
+46,572,Private Class,com.android.contacts.activities.ConfirmAddDetailActivity.QueryHandler,127,90,8,29,1.0,4.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,1.0,1.0,2.0,0.0,1
+47,594,Public Class,com.android.contacts.activities.ContactDetailActivity,252,185,30,37,1.0,10.0,0.0,0.0,1.0,7.0,7.0,7.0,17.0,0.0,1.0,2.0,4.0,3.0,81.0,0
+48,595,Anonymous Class,com.android.contacts.activities.ContactDetailActivity.(Anon_2),45,35,3,7,2.0,4.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,0
+49,599,Anonymous Class,com.android.contacts.activities.ContactDetailActivity.(Anon_2).onDetailsLoaded.(Anon_3),13,12,0,1,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+50,602,Anonymous Class,com.android.contacts.activities.ContactDetailActivity.(Anon_4),24,22,2,0,2.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+51,612,Anonymous Class,com.android.contacts.activities.ContactDetailActivity.onPrepareOptionsMenu.(Anon_1),23,14,2,7,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+52,616,Public Class,com.android.contacts.activities.ContactEditorAccountsChangedActivity,153,102,22,29,1.0,1.0,0.0,0.0,2.0,3.0,4.0,3.0,3.0,0.0,1.0,2.0,0.0,2.0,50.0,0
+53,617,Anonymous Class,com.android.contacts.activities.ContactEditorAccountsChangedActivity.(Anon_1),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+54,619,Anonymous Class,com.android.contacts.activities.ContactEditorAccountsChangedActivity.(Anon_2),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+55,623,Anonymous Class,com.android.contacts.activities.ContactEditorAccountsChangedActivity.onCreate.(Anon_3),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+56,625,Anonymous Class,com.android.contacts.activities.ContactEditorAccountsChangedActivity.onCreate.(Anon_4),9,7,0,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+57,628,Public Class,com.android.contacts.activities.ContactEditorActivity,213,166,31,16,2.0,5.0,0.0,0.0,4.0,5.0,4.0,5.0,15.0,0.0,0.0,2.0,3.0,3.0,65.0,1
+58,629,Anonymous Class,com.android.contacts.activities.ContactEditorActivity.(Anon_2),94,82,11,1,2.0,2.0,0.0,0.0,0.0,7.0,0.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,0.0,1
+59,640,Anonymous Class,com.android.contacts.activities.ContactEditorActivity.onCreate.(Anon_1),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+60,644,Public Class,com.android.contacts.activities.ContactSelectionActivity,564,432,82,50,6.0,11.0,0.0,0.0,5.0,23.0,6.0,23.0,33.0,0.0,6.0,3.0,14.0,3.0,84.0,1
+61,645,Private Class,com.android.contacts.activities.ContactSelectionActivity.ContactPickerActionListener,80,52,8,20,2.0,2.0,0.0,0.0,0.0,5.0,0.0,5.0,5.0,0.0,1.0,0.0,4.0,1.0,0.0,0
+62,652,Private Class,com.android.contacts.activities.ContactSelectionActivity.EmailAddressPickerActionListener,7,7,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+63,654,Private Class,com.android.contacts.activities.ContactSelectionActivity.PhoneNumberPickerActionListener,21,18,3,0,2.0,1.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,1
+64,659,Private Class,com.android.contacts.activities.ContactSelectionActivity.PostalAddressPickerActionListener,7,7,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+65,676,Anonymous Class,com.android.contacts.activities.ContactSelectionActivity.prepareSearchViewAndActionBar.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+66,685,Public Class,com.android.contacts.activities.GroupDetailActivity,136,113,20,3,1.0,4.0,0.0,0.0,1.0,4.0,5.0,4.0,14.0,0.0,0.0,0.0,4.0,3.0,65.0,0
+67,686,Anonymous Class,com.android.contacts.activities.GroupDetailActivity.(Anon_1),32,27,5,0,2.0,2.0,0.0,0.0,0.0,5.0,0.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,0.0,0
+68,696,Anonymous Class,com.android.contacts.activities.GroupDetailActivity.onPrepareOptionsMenu.(Anon_2),10,10,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+69,698,Public Class,com.android.contacts.activities.GroupEditorActivity,134,102,20,12,2.0,3.0,0.0,0.0,4.0,5.0,3.0,5.0,15.0,0.0,0.0,2.0,3.0,3.0,60.0,1
+70,699,Anonymous Class,com.android.contacts.activities.GroupEditorActivity.(Anon_2),33,25,3,5,2.0,3.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,1
+71,707,Anonymous Class,com.android.contacts.activities.GroupEditorActivity.onCreate.(Anon_1),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+72,711,Public Class,com.android.contacts.activities.JoinContactActivity,200,150,32,18,4.0,1.0,0.0,0.0,4.0,13.0,3.0,13.0,23.0,0.0,3.0,4.0,6.0,3.0,69.0,0
+73,724,Anonymous Class,com.android.contacts.activities.JoinContactActivity.setupActionListener.(Anon_1),19,16,3,0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,0
+74,730,Public Class,com.android.contacts.activities.PeopleActivity,1651,1202,213,240,6.0,38.0,0.0,0.0,9.0,51.0,35.0,51.0,61.0,0.0,22.0,10.0,19.0,3.0,93.0,1
+75,731,Private Class,com.android.contacts.activities.PeopleActivity.ContactBrowserActionListener,83,74,9,0,2.0,7.0,0.0,0.0,0.0,10.0,0.0,10.0,10.0,1.0,0.0,0.0,9.0,1.0,0.0,1
+76,742,Public Class,com.android.contacts.activities.PeopleActivity.ContactDetailFragmentListener,24,23,1,0,2.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+77,745,Private Class,com.android.contacts.activities.PeopleActivity.ContactDetailLoaderFragmentListener,43,33,4,6,2.0,5.0,0.0,0.0,0.0,5.0,0.0,5.0,5.0,1.0,0.0,0.0,4.0,1.0,0.0,0
+78,750,Anonymous Class,com.android.contacts.activities.PeopleActivity.ContactDetailLoaderFragmentListener.onDetailsLoaded.(Anon_1),9,8,0,1,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+79,753,Private Class,com.android.contacts.activities.PeopleActivity.ContactsUnavailableFragmentListener,29,25,4,0,2.0,1.0,0.0,0.0,0.0,5.0,0.0,5.0,5.0,1.0,0.0,0.0,4.0,1.0,0.0,0
+80,759,Private Class,com.android.contacts.activities.PeopleActivity.GroupBrowserActionListener,15,13,2,0,2.0,3.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0
+81,762,Private Class,com.android.contacts.activities.PeopleActivity.GroupDetailFragmentListener,36,22,6,8,2.0,2.0,0.0,0.0,0.0,6.0,0.0,6.0,6.0,1.0,0.0,0.0,5.0,1.0,0.0,0
+82,770,Private Class,com.android.contacts.activities.PeopleActivity.StrequentContactListFragmentListener,19,16,2,1,2.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,1.0,0.0,0.0,2.0,1.0,0.0,1
+83,774,Private Class,com.android.contacts.activities.PeopleActivity.TabPagerAdapter,143,112,17,15,1.0,2.0,0.0,0.0,0.0,14.0,4.0,14.0,14.0,0.0,1.0,0.0,13.0,2.0,75.0,1
+84,789,Private Class,com.android.contacts.activities.PeopleActivity.TabPagerListener,37,20,4,13,2.0,5.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,1.0,0.0,0.0,3.0,1.0,0.0,1
+85,844,Public Class,com.android.contacts.activities.PeopleActivityTest,190,145,27,20,1.0,10.0,0.0,0.0,2.0,10.0,3.0,10.0,10.0,0.0,6.0,1.0,3.0,2.0,66.0,1
+86,853,Anonymous Class,com.android.contacts.activities.PeopleActivityTest.setUp.(Anon_1),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+87,857,Public Class,com.android.contacts.activities.PhotoSelectionActivity,527,346,75,106,1.0,8.0,0.0,1.0,11.0,16.0,21.0,17.0,17.0,0.0,10.0,4.0,3.0,2.0,85.0,1
+88,858,Private Static Class,com.android.contacts.activities.PhotoSelectionActivity.PendingPhotoResult,10,10,0,0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0
+89,860,Private Class,com.android.contacts.activities.PhotoSelectionActivity.PhotoHandler,47,40,7,0,1.0,4.0,0.0,0.0,0.0,3.0,1.0,3.0,19.0,0.0,1.0,0.0,2.0,2.0,33.0,1
+90,862,Private Class,com.android.contacts.activities.PhotoSelectionActivity.PhotoHandler.PhotoListener,24,21,3,0,1.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,10.0,0.0,0.0,0.0,3.0,2.0,0.0,1
+91,872,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.animatePhotoOpen.(Anon_4),21,19,2,0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,2.0,0.0,0
+92,877,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.attachPhotoHandler.(Anon_7),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+93,881,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.closePhotoAndFinish.(Anon_5),14,13,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+94,883,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.closePhotoAndFinish.(Anon_5).onAnimationEnd.(Anon_6),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+95,886,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.displayPhoto.(Anon_3),23,23,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+96,895,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.onCreate.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+97,897,Anonymous Class,com.android.contacts.activities.PhotoSelectionActivity.onCreate.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+98,901,Public Class,com.android.contacts.activities.ShowOrCreateActivity,217,145,33,40,2.0,3.0,0.0,0.0,8.0,4.0,4.0,4.0,14.0,0.0,0.0,3.0,1.0,3.0,43.0,0
+99,902,Private Static Class,com.android.contacts.activities.ShowOrCreateActivity.IntentClickListener,25,14,2,9,2.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+100,907,Anonymous Class,com.android.contacts.activities.ShowOrCreateActivity.onCreateDialog.(Anon_1),4,4,0,1,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+101,912,Public Class,com.android.contacts.datepicker.DatePicker,404,276,55,73,1.0,2.0,0.0,0.0,3.0,20.0,11.0,20.0,20.0,0.0,6.0,3.0,11.0,2.0,72.0,1
+102,916,Anonymous Class,com.android.contacts.datepicker.DatePicker.DatePicker.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+103,918,Anonymous Class,com.android.contacts.datepicker.DatePicker.DatePicker.(Anon_2),13,8,1,4,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+104,920,Anonymous Class,com.android.contacts.datepicker.DatePicker.DatePicker.(Anon_3),9,8,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+105,922,Anonymous Class,com.android.contacts.datepicker.DatePicker.DatePicker.(Anon_4),8,8,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+106,926,Private Static Class,com.android.contacts.datepicker.DatePicker.SavedState,78,60,12,6,1.0,0.0,0.0,0.0,1.0,8.0,5.0,8.0,8.0,0.0,2.0,0.0,6.0,2.0,50.0,0
+107,927,Anonymous Class,com.android.contacts.datepicker.DatePicker.SavedState.(Anon_5),11,9,2,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+108,955,Public Class,com.android.contacts.datepicker.DatePickerDialog,201,123,21,57,3.0,3.0,0.0,0.0,5.0,11.0,7.0,11.0,11.0,0.0,1.0,0.0,10.0,2.0,79.0,1
+109,970,Class,com.android.contacts.detail.ActionsViewContainer,28,18,6,5,1.0,0.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,60.0,0
+110,976,Public Class,com.android.contacts.detail.CarouselTab,59,41,12,6,1.0,0.0,0.0,0.0,2.0,6.0,3.0,6.0,12.0,0.0,0.0,1.0,5.0,3.0,55.0,0
+111,983,Public Class,com.android.contacts.detail.ContactDetailDisplayUtils,511,346,53,112,1.0,11.0,0.0,19.0,2.0,1.0,0.0,20.0,20.0,1.0,3.0,0.0,16.0,1.0,95.0,0
+112,985,Private Static Class,com.android.contacts.detail.ContactDetailDisplayUtils.DefaultImageGetter,75,58,10,7,2.0,1.0,0.0,0.0,1.0,4.0,1.0,4.0,4.0,0.0,2.0,0.0,2.0,1.0,50.0,0
+113,990,Public Static Class,com.android.contacts.detail.ContactDetailDisplayUtils.StreamPhotoTag,20,15,2,3,1.0,2.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+114,1012,Public Class,com.android.contacts.detail.ContactDetailDisplayUtilsTest,86,61,12,13,1.0,3.0,0.0,0.0,1.0,11.0,1.0,11.0,11.0,0.0,6.0,2.0,3.0,2.0,81.0,0
+115,1024,Public Class,com.android.contacts.detail.ContactDetailFragment,2137,1526,309,305,4.0,41.0,0.0,2.0,4.0,41.0,40.0,43.0,43.0,0.0,15.0,4.0,24.0,2.0,93.0,0
+116,1025,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.(Anon_1),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+117,1027,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.(Anon_2),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+118,1029,Private Static Class,com.android.contacts.detail.ContactDetailFragment.AddConnectionViewCache,14,10,1,3,1.0,0.0,0.0,0.0,0.0,1.0,3.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+119,1031,Private Static Class,com.android.contacts.detail.ContactDetailFragment.AddConnectionViewEntry,31,24,4,3,1.0,2.0,0.0,0.0,0.0,4.0,3.0,4.0,9.0,0.0,1.0,0.0,3.0,2.0,50.0,0
+120,1036,Private Class,com.android.contacts.detail.ContactDetailFragment.AddToMyContactsQuickFix,74,48,13,13,1.0,9.0,0.0,0.0,0.0,3.0,0.0,3.0,6.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+121,1042,Private Static Class,com.android.contacts.detail.ContactDetailFragment.DetailViewCache,37,29,4,4,1.0,0.0,0.0,0.0,0.0,1.0,9.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+122,1044,Static Class,com.android.contacts.detail.ContactDetailFragment.DetailViewEntry,167,127,23,17,2.0,6.0,0.0,1.0,0.0,8.0,19.0,9.0,14.0,1.0,0.0,0.0,8.0,2.0,75.0,0
+123,1054,Private Static Class,com.android.contacts.detail.ContactDetailFragment.HeaderViewCache,27,22,2,3,1.0,0.0,0.0,0.0,0.0,2.0,6.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,41.0,0
+124,1057,Private Static Class,com.android.contacts.detail.ContactDetailFragment.HeaderViewEntry,10,5,2,3,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,6.0,1.0,0.0,0.0,0.0,2.0,0.0,0
+125,1059,Private Static Class,com.android.contacts.detail.ContactDetailFragment.InvitableAccountTypesAdapter,63,49,11,3,1.0,1.0,0.0,0.0,0.0,5.0,3.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,46.0,0
+126,1065,Private Static Class,com.android.contacts.detail.ContactDetailFragment.KindTitleViewCache,7,6,1,0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+127,1067,Private Static Class,com.android.contacts.detail.ContactDetailFragment.KindTitleViewEntry,17,10,3,4,1.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,7.0,1.0,0.0,0.0,1.0,2.0,0.0,0
+128,1073,Private Class,com.android.contacts.detail.ContactDetailFragment.MakeLocalCopyQuickFix,55,44,7,6,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,6.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+129,1077,Private Static Class,com.android.contacts.detail.ContactDetailFragment.NetworkTitleViewCache,12,8,1,3,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+130,1079,Private Static Class,com.android.contacts.detail.ContactDetailFragment.NetworkTitleViewEntry,22,16,3,3,1.0,1.0,0.0,0.0,0.0,3.0,2.0,3.0,8.0,0.0,0.0,0.0,3.0,2.0,33.0,0
+131,1083,Private Static Abstract Class,com.android.contacts.detail.ContactDetailFragment.QuickFix,9,5,0,4,1.0,0.0,2.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+132,1087,Private Static Class,com.android.contacts.detail.ContactDetailFragment.SeparatorViewEntry,24,12,4,8,1.0,1.0,0.0,0.0,0.0,3.0,1.0,3.0,8.0,1.0,0.0,0.0,2.0,2.0,33.0,0
+133,1091,Private Class,com.android.contacts.detail.ContactDetailFragment.ViewAdapter,380,302,51,27,1.0,17.0,0.0,0.0,7.0,16.0,2.0,16.0,16.0,0.0,8.0,0.0,8.0,2.0,93.0,0
+134,1092,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.ViewAdapter.(Anon_8),8,8,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+135,1094,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.ViewAdapter.(Anon_9),12,12,0,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+136,1102,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.ViewAdapter.getHeaderEntryView.(Anon_7),25,15,2,8,1.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+137,1114,Static Class,com.android.contacts.detail.ContactDetailFragment.ViewEntry,36,19,5,12,1.0,1.0,6.0,0.0,0.0,5.0,3.0,5.0,5.0,4.0,0.0,0.0,1.0,1.0,73.0,0
+138,1120,Private Static Class,com.android.contacts.detail.ContactDetailFragment.ViewEntryDimensions,45,33,7,5,1.0,0.0,0.0,0.0,0.0,6.0,5.0,6.0,6.0,0.0,0.0,0.0,6.0,1.0,66.0,0
+139,1128,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.addMoreNetworks.(Anon_4),10,10,0,1,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+140,1130,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.addMoreNetworks.(Anon_5),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+141,1159,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.onCreateView.(Anon_3),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+142,1175,Anonymous Class,com.android.contacts.detail.ContactDetailFragment.showListPopup.(Anon_6),7,7,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+143,1177,Public Class,com.android.contacts.detail.ContactDetailFragmentCarousel,268,167,37,64,2.0,1.0,0.0,0.0,5.0,17.0,11.0,17.0,17.0,0.0,5.0,2.0,10.0,2.0,84.0,0
+144,1178,Anonymous Class,com.android.contacts.detail.ContactDetailFragmentCarousel.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+145,1180,Anonymous Class,com.android.contacts.detail.ContactDetailFragmentCarousel.(Anon_2),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+146,1199,Public Class,com.android.contacts.detail.ContactDetailFragmentTests,109,82,16,11,1.0,5.0,0.0,0.0,2.0,5.0,0.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,0.0,0
+147,1205,Public Class,com.android.contacts.detail.ContactDetailLayoutController,703,497,89,119,1.0,15.0,0.0,0.0,5.0,14.0,24.0,14.0,14.0,0.0,9.0,0.0,5.0,1.0,76.0,0
+148,1206,Anonymous Class,com.android.contacts.detail.ContactDetailLayoutController.(Anon_1),95,58,14,23,1.0,2.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,0.0,2.0,0.0,3.0,2.0,40.0,0
+149,1212,Anonymous Class,com.android.contacts.detail.ContactDetailLayoutController.(Anon_2),21,17,4,0,1.0,1.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,0.0,0
+150,1217,Anonymous Class,com.android.contacts.detail.ContactDetailLayoutController.(Anon_3),32,19,4,9,2.0,1.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,0.0,0
+151,1224,Private Class,com.android.contacts.detail.ContactDetailLayoutController.VerticalScrollListener,48,33,4,11,2.0,2.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+152,1241,Public Class,com.android.contacts.detail.ContactDetailPhotoSetter,74,55,9,10,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,13.0,0.0,1.0,0.0,1.0,2.0,0.0,1
+153,1242,Private Static Class,com.android.contacts.detail.ContactDetailPhotoSetter.PhotoClickListener,52,40,6,6,2.0,3.0,0.0,0.0,0.0,2.0,5.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,1
+154,1247,Public Class,com.android.contacts.detail.ContactDetailTabCarousel,480,282,71,127,2.0,9.0,0.0,0.0,7.0,20.0,24.0,20.0,20.0,0.0,1.0,4.0,15.0,2.0,88.0,0
+155,1254,Private Class,com.android.contacts.detail.ContactDetailTabCarousel.TabClickListener,14,11,2,1,2.0,2.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+156,1266,Anonymous Class,com.android.contacts.detail.ContactDetailTabCarousel.onLayout.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+157,1278,Public Class,com.android.contacts.detail.ContactDetailUpdatesFragment,136,87,20,29,2.0,4.0,0.0,0.0,1.0,10.0,7.0,10.0,10.0,0.0,1.0,0.0,9.0,2.0,84.0,0
+158,1279,Anonymous Class,com.android.contacts.detail.ContactDetailUpdatesFragment.(Anon_1),17,15,1,1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+159,1281,Anonymous Class,com.android.contacts.detail.ContactDetailUpdatesFragment.(Anon_2),14,13,1,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+160,1293,Public Class,com.android.contacts.detail.ContactDetailViewPagerAdapter,107,69,18,20,1.0,0.0,0.0,0.0,5.0,13.0,3.0,13.0,13.0,0.0,0.0,0.0,13.0,2.0,76.0,0
+161,1307,Public Class,com.android.contacts.detail.ContactLoaderFragment,419,300,60,62,2.0,4.0,0.0,0.0,6.0,22.0,11.0,22.0,22.0,0.0,4.0,0.0,18.0,2.0,83.0,0
+162,1308,Anonymous Class,com.android.contacts.detail.ContactLoaderFragment.(Anon_1),40,33,4,6,1.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+163,1319,Anonymous Class,com.android.contacts.detail.ContactLoaderFragment.createLauncherShortcutWithContact.(Anon_2),15,9,2,4,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+164,1341,Public Abstract Class,com.android.contacts.detail.PhotoSelectionHandler,309,196,32,83,2.0,7.0,2.0,0.0,4.0,16.0,9.0,16.0,16.0,0.0,8.0,2.0,6.0,1.0,80.0,1
+165,1342,Public Abstract Class,com.android.contacts.detail.PhotoSelectionHandler.PhotoActionListener,51,29,6,16,2.0,1.0,2.0,0.0,0.0,7.0,0.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,0.0,0
+166,1363,Anonymous Class,com.android.contacts.detail.PhotoSelectionHandler.onClick.(Anon_1),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+167,1368,Public Class,com.android.contacts.detail.StreamItemAdapter,118,87,14,17,1.0,2.0,0.0,0.0,2.0,10.0,5.0,10.0,10.0,0.0,0.0,0.0,10.0,2.0,76.0,0
+168,1379,Public Class,com.android.contacts.detail.StreamItemAdapterTest,113,77,16,20,1.0,4.0,0.0,0.0,0.0,13.0,5.0,13.0,13.0,0.0,8.0,2.0,3.0,2.0,72.0,0
+169,1380,Private Class,com.android.contacts.detail.StreamItemAdapterTest.FakeOnClickListener,12,7,1,4,2.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+170,1395,Public Class,com.android.contacts.detail.TransformableImageView,46,36,7,3,1.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,1.0,3.0,2.0,0.0,1
+171,1401,Public Class,com.android.contacts.editor.AggregationSuggestionEngine,398,343,51,4,1.0,5.0,0.0,0.0,6.0,17.0,9.0,17.0,17.0,0.0,4.0,4.0,9.0,2.0,85.0,1
+172,1403,Anonymous Class,com.android.contacts.editor.AggregationSuggestionEngine.AggregationSuggestionEngine.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+173,1405,Private Static Class,com.android.contacts.editor.AggregationSuggestionEngine.DataQuery,41,38,3,0,1.0,0.0,0.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+174,1408,Public Static Class,com.android.contacts.editor.AggregationSuggestionEngine.RawContact,12,11,1,0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+175,1410,Public Static Class,com.android.contacts.editor.AggregationSuggestionEngine.Suggestion,18,16,2,0,1.0,0.0,0.0,0.0,0.0,1.0,8.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,12.0,0
+176,1412,Private Class,com.android.contacts.editor.AggregationSuggestionEngine.SuggestionContentObserver,10,9,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,2.0,0.0,0
+177,1420,Anonymous Class,com.android.contacts.editor.AggregationSuggestionEngine.getHandler.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+178,1433,Public Class,com.android.contacts.editor.AggregationSuggestionView,113,83,16,14,1.0,3.0,0.0,0.0,0.0,8.0,5.0,8.0,8.0,0.0,1.0,0.0,7.0,2.0,72.0,1
+179,1445,Public Abstract Class,com.android.contacts.editor.BaseRawContactEditorView,101,54,18,30,1.0,3.0,2.0,0.0,0.0,12.0,5.0,12.0,12.0,1.0,0.0,2.0,9.0,2.0,76.0,1
+180,1458,Public Class,com.android.contacts.editor.ContactEditorFragment,1867,1308,252,310,5.0,36.0,0.0,0.0,27.0,60.0,37.0,60.0,60.0,0.0,28.0,3.0,29.0,2.0,91.0,1
+181,1459,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.(Anon_1),8,8,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+182,1461,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.(Anon_8),33,25,4,4,1.0,5.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,1
+183,1465,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.(Anon_9),16,13,3,0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+184,1469,Private Static Class,com.android.contacts.editor.ContactEditorFragment.AggregationSuggestionAdapter,42,37,5,0,1.0,3.0,0.0,0.0,0.0,5.0,4.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,55.0,0
+185,1475,Public Static Class,com.android.contacts.editor.ContactEditorFragment.CancelEditDialogFragment,26,24,2,0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+186,1477,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.CancelEditDialogFragment.onCreateDialog.(Anon_5),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+187,1481,Private Class,com.android.contacts.editor.ContactEditorFragment.EntityDeltaComparator,81,65,7,9,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1
+188,1483,Public Static Class,com.android.contacts.editor.ContactEditorFragment.JoinSuggestedContactDialogFragment,23,22,1,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+189,1485,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.JoinSuggestedContactDialogFragment.onCreateDialog.(Anon_6),10,10,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+190,1495,Private Class,com.android.contacts.editor.ContactEditorFragment.PhotoHandler,102,71,14,17,1.0,6.0,0.0,0.0,0.0,3.0,3.0,3.0,19.0,0.0,0.0,0.0,3.0,2.0,44.0,1
+191,1496,Private Class,com.android.contacts.editor.ContactEditorFragment.PhotoHandler.PhotoEditorListener,68,47,9,12,2.0,7.0,0.0,0.0,0.0,7.0,0.0,7.0,14.0,0.0,0.0,0.0,7.0,2.0,0.0,0
+192,1509,Public Static Class,com.android.contacts.editor.ContactEditorFragment.SuggestionEditConfirmationDialogFragment,23,22,1,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+193,1511,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.SuggestionEditConfirmationDialogFragment.onCreateDialog.(Anon_7),10,10,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+194,1515,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.addAccountSwitcher.(Anon_3),25,25,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+195,1517,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.addAccountSwitcher.(Anon_3).onClick.(Anon_4),10,10,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+196,1520,Anonymous Class,com.android.contacts.editor.ContactEditorFragment.bindEditors.(for_loop_4).(Anon_2),15,13,2,1,2.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+197,1579,Public Class,com.android.contacts.editor.ContactEditorUtils,254,140,29,95,1.0,1.0,0.0,1.0,6.0,15.0,3.0,16.0,16.0,6.0,4.0,0.0,6.0,1.0,79.0,0
+198,1596,Public Class,com.android.contacts.editor.ContactEditorUtilsTest,287,149,65,75,1.0,3.0,0.0,1.0,9.0,10.0,2.0,11.0,11.0,0.0,3.0,1.0,7.0,2.0,40.0,1
+199,1597,Private Static Class,com.android.contacts.editor.ContactEditorUtilsTest.MockAccountType,19,16,3,0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,33.0,0
+200,1625,Public Class,com.android.contacts.editor.EditorAnimator,266,182,37,48,1.0,2.0,0.0,4.0,1.0,6.0,1.0,10.0,10.0,0.0,4.0,0.0,6.0,1.0,70.0,0
+201,1626,Static Class,com.android.contacts.editor.EditorAnimator.AnimatorRunner,31,23,4,5,1.0,0.0,0.0,0.0,0.0,4.0,1.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,25.0,0
+202,1633,Anonymous Class,com.android.contacts.editor.EditorAnimator.expandOrganization.(Anon_3),26,19,3,4,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+203,1639,Anonymous Class,com.android.contacts.editor.EditorAnimator.hideAddFieldFooter.(Anon_5),13,10,1,2,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+204,1642,Anonymous Class,com.android.contacts.editor.EditorAnimator.removeEditorView.(Anon_1),15,12,0,3,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+205,1645,Anonymous Class,com.android.contacts.editor.EditorAnimator.showAddFieldFooter.(Anon_4),21,14,4,3,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+206,1648,Anonymous Class,com.android.contacts.editor.EditorAnimator.slideAndFadeIn.(Anon_2),20,14,4,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+207,1651,Public Class,com.android.contacts.editor.EditorUiUtils,50,19,3,28,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+208,1653,Public Class,com.android.contacts.editor.EventFieldEditorView,231,166,36,30,1.0,5.0,0.0,1.0,1.0,15.0,4.0,16.0,54.0,0.0,2.0,4.0,10.0,3.0,78.0,1
+209,1659,Anonymous Class,com.android.contacts.editor.EventFieldEditorView.createDatePickerDialog.(Anon_2),23,18,2,3,2.0,5.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1
+210,1667,Anonymous Class,com.android.contacts.editor.EventFieldEditorView.onFinishInflate.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+211,1674,Public Class,com.android.contacts.editor.GroupMembershipView,376,304,52,21,3.0,7.0,0.0,0.0,1.0,14.0,17.0,14.0,14.0,0.0,4.0,2.0,8.0,2.0,78.0,1
+212,1675,Private Generic Class,com.android.contacts.editor.GroupMembershipView.GroupMembershipAdapter,40,25,7,8,1.0,0.0,0.0,0.0,0.0,5.0,0.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,0.0,0
+213,1684,Public Static Class,com.android.contacts.editor.GroupMembershipView.GroupSelectionItem,28,23,5,0,1.0,0.0,0.0,0.0,0.0,5.0,3.0,5.0,5.0,0.0,0.0,0.0,5.0,1.0,53.0,0
+214,1691,Anonymous Class,com.android.contacts.editor.GroupMembershipView.createNewGroup.(Anon_1),5,5,0,0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+215,1704,Public Class,com.android.contacts.editor.KindSectionView,352,240,48,64,2.0,6.0,0.0,0.0,1.0,25.0,10.0,25.0,25.0,0.0,8.0,2.0,15.0,2.0,84.0,1
+216,1708,Anonymous Class,com.android.contacts.editor.KindSectionView.addItem.(Anon_3),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+217,1721,Anonymous Class,com.android.contacts.editor.KindSectionView.onFinishInflate.(Anon_1),7,6,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+218,1726,Anonymous Class,com.android.contacts.editor.KindSectionView.postWhenWindowFocused.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+219,1736,Public Abstract Class,com.android.contacts.editor.LabeledEditorView,523,391,77,56,3.0,8.0,2.0,0.0,4.0,38.0,17.0,38.0,38.0,2.0,6.0,14.0,16.0,2.0,91.0,1
+220,1737,Anonymous Class,com.android.contacts.editor.LabeledEditorView.(Anon_1),11,9,2,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+221,1740,Private Class,com.android.contacts.editor.LabeledEditorView.EditTypeAdapter,65,54,10,1,1.0,2.0,0.0,0.0,0.0,5.0,3.0,5.0,5.0,0.0,1.0,0.0,4.0,2.0,60.0,1
+222,1750,Anonymous Class,com.android.contacts.editor.LabeledEditorView.createCustomDialog.(Anon_4),23,22,1,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+223,1752,Anonymous Class,com.android.contacts.editor.LabeledEditorView.createCustomDialog.(Anon_5),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+224,1754,Anonymous Class,com.android.contacts.editor.LabeledEditorView.createCustomDialog.(Anon_6),13,11,2,0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+225,1776,Anonymous Class,com.android.contacts.editor.LabeledEditorView.onFinishInflate.(Anon_2),22,15,0,7,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+226,1778,Anonymous Class,com.android.contacts.editor.LabeledEditorView.onFinishInflate.(Anon_2).onClick.(Anon_3),16,10,0,6,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+227,1796,Public Class,com.android.contacts.editor.PhoneticNameEditorView,193,140,24,30,1.0,4.0,0.0,3.0,0.0,6.0,0.0,9.0,64.0,0.0,0.0,0.0,9.0,4.0,0.0,1
+228,1800,Private Static Class,com.android.contacts.editor.PhoneticNameEditorView.PhoneticValuesDelta,53,46,7,0,1.0,2.0,0.0,0.0,0.0,7.0,2.0,7.0,7.0,0.0,2.0,0.0,5.0,2.0,28.0,1
+229,1814,Public Class,com.android.contacts.editor.PhotoActionPopup,141,107,13,21,1.0,4.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+230,1815,Private Static Class,com.android.contacts.editor.PhotoActionPopup.ChoiceListItem,23,19,4,0,1.0,0.0,0.0,0.0,4.0,3.0,2.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,33.0,0
+231,1819,Public Static Class,com.android.contacts.editor.PhotoActionPopup.Flags,16,6,0,10,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+232,1825,Public Static Class,com.android.contacts.editor.PhotoActionPopup.Modes,18,15,0,3,1.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+233,1827,Anonymous Class,com.android.contacts.editor.PhotoActionPopup.createPopupMenu.(Anon_1),21,20,1,0,1.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+234,1829,Public Class,com.android.contacts.editor.PhotoEditorView,170,113,26,31,2.0,5.0,0.0,0.0,0.0,16.0,7.0,16.0,16.0,0.0,0.0,2.0,14.0,2.0,78.0,1
+235,1839,Anonymous Class,com.android.contacts.editor.PhotoEditorView.onFinishInflate.(Anon_1),7,7,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+236,1848,Public Class,com.android.contacts.editor.RawContactEditorView,464,336,68,60,1.0,11.0,0.0,0.0,2.0,17.0,19.0,17.0,29.0,0.0,5.0,3.0,9.0,3.0,83.0,1
+237,1858,Anonymous Class,com.android.contacts.editor.RawContactEditorView.onFinishInflate.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+238,1866,Anonymous Class,com.android.contacts.editor.RawContactEditorView.setState.(for_loop_2).(Anon_2),9,7,0,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+239,1869,Anonymous Class,com.android.contacts.editor.RawContactEditorView.showAddInformationPopupWindow.(Anon_3),19,15,2,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+240,1872,Public Class,com.android.contacts.editor.RawContactReadOnlyEditorView,244,192,32,20,2.0,5.0,0.0,0.0,0.0,9.0,13.0,9.0,21.0,0.0,2.0,1.0,6.0,3.0,76.0,1
+241,1884,Anonymous Class,com.android.contacts.editor.RawContactReadOnlyEditorView.setState.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+242,1886,Public Class,com.android.contacts.editor.SplitContactConfirmationDialogFragment,34,25,3,6,1.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+243,1891,Anonymous Class,com.android.contacts.editor.SplitContactConfirmationDialogFragment.onCreateDialog.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+244,1893,Public Class,com.android.contacts.editor.StructuredNameEditorView,239,179,38,22,1.0,6.0,0.0,1.0,0.0,16.0,2.0,17.0,72.0,0.0,8.0,3.0,6.0,4.0,67.0,1
+245,1894,Private Static Class,com.android.contacts.editor.StructuredNameEditorView.SavedState,44,36,8,0,2.0,0.0,0.0,0.0,1.0,4.0,3.0,4.0,4.0,1.0,1.0,0.0,2.0,1.0,41.0,0
+246,1895,Anonymous Class,com.android.contacts.editor.StructuredNameEditorView.SavedState.(Anon_1),10,9,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+247,1919,Public Class,com.android.contacts.editor.TextFieldsEditorView,350,261,48,41,1.0,4.0,2.0,0.0,1.0,17.0,8.0,17.0,55.0,0.0,1.0,4.0,12.0,3.0,80.0,1
+248,1920,Private Static Class,com.android.contacts.editor.TextFieldsEditorView.SavedState,35,30,5,0,1.0,0.0,0.0,0.0,1.0,3.0,2.0,3.0,3.0,1.0,1.0,0.0,1.0,2.0,66.0,0
+249,1921,Anonymous Class,com.android.contacts.editor.TextFieldsEditorView.SavedState.(Anon_3),10,9,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+250,1937,Anonymous Class,com.android.contacts.editor.TextFieldsEditorView.onFinishInflate.(Anon_1),24,16,4,4,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+251,1945,Anonymous Class,com.android.contacts.editor.TextFieldsEditorView.setValues.(for_loop_4).(Anon_2),14,11,2,1,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+252,1950,Public Class,com.android.contacts.editor.ViewIdGenerator,105,64,17,24,2.0,1.0,0.0,1.0,6.0,5.0,2.0,6.0,6.0,0.0,2.0,0.0,4.0,1.0,41.0,1
+253,1951,Anonymous Class,com.android.contacts.editor.ViewIdGenerator.(Anon_1),10,9,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+254,1961,Public Class,com.android.contacts.format.TestTextWithHighlightingFactory,21,18,1,2,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+255,1962,Private Static Class,com.android.contacts.format.TestTextWithHighlightingFactory.TestTextWithHighlighting,13,12,0,1,2.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+256,1966,Public Class,com.android.contacts.group.GroupBrowseListAdapter,205,157,29,19,1.0,3.0,0.0,1.0,0.0,12.0,6.0,13.0,13.0,0.0,3.0,0.0,10.0,2.0,76.0,0
+257,1968,Public Static Class,com.android.contacts.group.GroupBrowseListAdapter.GroupListItemViewCache,32,25,3,4,1.0,0.0,0.0,0.0,0.0,3.0,8.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,62.0,0
+258,1984,Public Class,com.android.contacts.group.GroupBrowseListFragment,264,198,43,25,3.0,3.0,0.0,0.0,3.0,19.0,14.0,19.0,19.0,0.0,5.0,1.0,13.0,2.0,84.0,1
+259,1985,Anonymous Class,com.android.contacts.group.GroupBrowseListFragment.(Anon_3),16,13,3,0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+260,1997,Anonymous Class,com.android.contacts.group.GroupBrowseListFragment.onCreateView.(Anon_1),8,8,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+261,1999,Anonymous Class,com.android.contacts.group.GroupBrowseListFragment.onCreateView.(Anon_2),9,9,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+262,2014,Public Class,com.android.contacts.group.GroupDetailDisplayUtils,32,26,5,1,1.0,0.0,0.0,2.0,0.0,1.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,1.0,0.0,0
+263,2018,Public Class,com.android.contacts.group.GroupDetailFragment,401,283,64,54,2.0,5.0,0.0,0.0,3.0,26.0,26.0,26.0,26.0,0.0,7.0,0.0,19.0,2.0,91.0,1
+264,2019,Anonymous Class,com.android.contacts.group.GroupDetailFragment.(Anon_1),17,13,3,1,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+265,2023,Anonymous Class,com.android.contacts.group.GroupDetailFragment.(Anon_2),26,21,4,1,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,1
+266,2027,Anonymous Class,com.android.contacts.group.GroupDetailFragment.(Anon_3),16,13,3,0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,1
+267,2061,Anonymous Class,com.android.contacts.group.GroupDetailFragment.updateAccountType.(Anon_4),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+268,2065,Public Class,com.android.contacts.group.GroupEditorFragment,913,679,132,124,2.0,9.0,0.0,1.0,34.0,32.0,28.0,33.0,33.0,0.0,17.0,0.0,16.0,2.0,87.0,1
+269,2066,Anonymous Class,com.android.contacts.group.GroupEditorFragment.(Anon_3),18,13,4,1,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+270,2070,Anonymous Class,com.android.contacts.group.GroupEditorFragment.(Anon_4),31,23,5,3,1.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+271,2074,Anonymous Class,com.android.contacts.group.GroupEditorFragment.(Anon_5),30,24,4,2,1.0,2.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,33.0,0
+272,2078,Public Static Class,com.android.contacts.group.GroupEditorFragment.CancelEditDialogFragment,26,24,2,0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+273,2080,Anonymous Class,com.android.contacts.group.GroupEditorFragment.CancelEditDialogFragment.onCreateDialog.(Anon_2),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+274,2089,Public Static Class,com.android.contacts.group.GroupEditorFragment.Member,90,71,14,5,2.0,0.0,0.0,0.0,1.0,11.0,5.0,11.0,11.0,0.0,1.0,0.0,10.0,1.0,60.0,1
+275,2090,Anonymous Class,com.android.contacts.group.GroupEditorFragment.Member.(Anon_6),10,9,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+276,2104,Private Class,com.android.contacts.group.GroupEditorFragment.MemberListAdapter,59,46,10,3,1.0,2.0,0.0,0.0,0.0,5.0,1.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,60.0,1
+277,2109,Anonymous Class,com.android.contacts.group.GroupEditorFragment.MemberListAdapter.getView.(Anon_7),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+278,2146,Anonymous Class,com.android.contacts.group.GroupEditorFragment.setupEditorForAccount.(Anon_1),16,12,2,3,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+279,2149,Public Class,com.android.contacts.group.GroupListItem,55,42,9,4,1.0,0.0,0.0,0.0,0.0,9.0,7.0,9.0,9.0,0.0,0.0,0.0,9.0,1.0,76.0,0
+280,2159,Public Class,com.android.contacts.group.SuggestedMemberListAdapter,329,241,46,50,1.0,3.0,0.0,0.0,9.0,10.0,7.0,10.0,10.0,0.0,0.0,0.0,10.0,2.0,85.0,1
+281,2160,Public Class,com.android.contacts.group.SuggestedMemberListAdapter.SuggestedMember,57,40,11,6,1.0,0.0,0.0,0.0,0.0,10.0,5.0,10.0,10.0,0.0,0.0,0.0,10.0,1.0,78.0,0
+282,2171,Public Class,com.android.contacts.group.SuggestedMemberListAdapter.SuggestedMemberFilter,152,110,15,27,1.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,0.0,1
+283,2185,Public Class,com.android.contacts.interactions.ContactDeletionInteraction,279,212,36,36,3.0,2.0,0.0,2.0,11.0,17.0,7.0,19.0,19.0,2.0,3.0,1.0,13.0,2.0,81.0,1
+284,2203,Anonymous Class,com.android.contacts.interactions.ContactDeletionInteraction.showDialog.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+285,2207,Public Class,com.android.contacts.interactions.ContactDeletionInteractionTest,128,93,23,12,1.0,5.0,0.0,0.0,4.0,9.0,4.0,9.0,9.0,0.0,2.0,2.0,5.0,2.0,80.0,1
+286,2210,Anonymous Class,com.android.contacts.interactions.ContactDeletionInteractionTest.assertWithMessageId.(Anon_3),6,6,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+287,2214,Anonymous Class,com.android.contacts.interactions.ContactDeletionInteractionTest.setUp.(Anon_1),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+288,2216,Anonymous Class,com.android.contacts.interactions.ContactDeletionInteractionTest.setUp.(Anon_2),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+289,2223,Public Class,com.android.contacts.interactions.GroupCreationDialogFragment,72,54,12,7,1.0,2.0,0.0,1.0,4.0,6.0,1.0,7.0,12.0,0.0,1.0,3.0,3.0,3.0,42.0,0
+290,2233,Public Class,com.android.contacts.interactions.GroupDeletionDialogFragment,55,45,7,3,1.0,1.0,0.0,1.0,3.0,3.0,0.0,4.0,4.0,0.0,1.0,1.0,2.0,2.0,0.0,0
+291,2236,Anonymous Class,com.android.contacts.interactions.GroupDeletionDialogFragment.onCreateDialog.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+292,2240,Public Abstract Class,com.android.contacts.interactions.GroupNameDialogFragment,61,51,7,4,1.0,0.0,1.0,0.0,0.0,5.0,0.0,5.0,5.0,1.0,0.0,3.0,1.0,2.0,0.0,0
+293,2245,Anonymous Class,com.android.contacts.interactions.GroupNameDialogFragment.onCreateDialog.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+294,2247,Anonymous Class,com.android.contacts.interactions.GroupNameDialogFragment.onCreateDialog.(Anon_2),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+295,2249,Anonymous Class,com.android.contacts.interactions.GroupNameDialogFragment.onCreateDialog.(Anon_3),13,11,2,0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+296,2254,Public Class,com.android.contacts.interactions.TestLoaderManager,190,97,20,74,1.0,0.0,0.0,1.0,1.0,10.0,2.0,11.0,11.0,1.0,0.0,0.0,10.0,2.0,50.0,1
+297,2262,Anonymous Class,com.android.contacts.interactions.TestLoaderManager.initLoader.(Anon_2),18,16,2,0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+298,2273,Anonymous Class,com.android.contacts.interactions.TestLoaderManager.waitForLoaders.(for_loop_2).(Anon_1),10,10,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+299,2276,Public Abstract Class,com.android.contacts.list.ContactBrowseListFragment,640,465,98,78,1.0,2.0,1.0,0.0,9.0,42.0,19.0,42.0,42.0,0.0,10.0,8.0,24.0,2.0,89.0,1
+300,2277,Private Class,com.android.contacts.list.ContactBrowseListFragment.ContactLookupTask,56,41,7,8,1.0,2.0,0.0,0.0,0.0,4.0,2.0,4.0,4.0,0.0,0.0,2.0,2.0,2.0,50.0,1
+301,2291,Anonymous Class,com.android.contacts.list.ContactBrowseListFragment.getHandler.(Anon_1),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+302,2326,Public Class,com.android.contacts.list.ContactNameHighlightingAnimation,39,28,4,7,1.0,0.0,0.0,0.0,0.0,4.0,2.0,4.0,13.0,0.0,0.0,3.0,1.0,2.0,25.0,0
+303,2331,Public Class,com.android.contacts.list.ContactPickerFragment,159,128,26,5,2.0,2.0,0.0,0.0,3.0,20.0,4.0,20.0,20.0,0.0,0.0,5.0,15.0,2.0,72.0,1
+304,2352,Public Class,com.android.contacts.list.ContactTileFrequentFragment,18,14,1,3,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,14.0,0.0,0.0,0.0,1.0,3.0,0.0,0
+305,2354,Public Class,com.android.contacts.list.ContactTileListFragment,190,142,29,19,1.0,1.0,1.0,0.0,1.0,13.0,8.0,13.0,13.0,0.0,4.0,1.0,8.0,2.0,83.0,1
+306,2355,Anonymous Class,com.android.contacts.list.ContactTileListFragment.(Anon_1),31,26,4,1,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,1
+307,2359,Anonymous Class,com.android.contacts.list.ContactTileListFragment.(Anon_2),19,17,2,0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+308,2379,Public Class,com.android.contacts.list.ContactsIntentResolver,144,120,10,14,1.0,2.0,0.0,0.0,1.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,1
+309,2382,Public Class,com.android.contacts.list.ContactsRequest,222,150,45,27,2.0,0.0,0.0,0.0,18.0,24.0,10.0,24.0,24.0,0.0,0.0,0.0,24.0,1.0,81.0,1
+310,2383,Anonymous Class,com.android.contacts.list.ContactsRequest.(Anon_1),21,19,2,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+311,2410,Public Class,com.android.contacts.list.ContactsUnavailableFragment,168,145,13,11,2.0,3.0,0.0,0.0,0.0,6.0,13.0,6.0,6.0,0.0,0.0,0.0,6.0,2.0,64.0,0
+312,2417,Public Class,com.android.contacts.list.DefaultContactBrowseListFragment,261,208,28,26,1.0,1.0,0.0,0.0,2.0,16.0,11.0,16.0,58.0,0.0,5.0,7.0,4.0,3.0,85.0,1
+313,2419,Private Class,com.android.contacts.list.DefaultContactBrowseListFragment.FilterHeaderClickListener,9,9,0,0,2.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+314,2422,Anonymous Class,com.android.contacts.list.DefaultContactBrowseListFragment.addEmptyUserProfileHeader.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+315,2438,Public Class,com.android.contacts.list.EmailAddressListAdapter,153,118,21,26,1.0,1.0,0.0,0.0,0.0,10.0,1.0,10.0,10.0,0.0,0.0,6.0,4.0,2.0,80.0,1
+316,2440,Protected Static Class,com.android.contacts.list.EmailAddressListAdapter.EmailQuery,26,24,2,12,1.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1
+317,2450,Public Class,com.android.contacts.list.EmailAddressPickerFragment,47,36,8,3,1.0,2.0,0.0,0.0,0.0,7.0,1.0,7.0,7.0,0.0,1.0,4.0,2.0,2.0,71.0,1
+318,2458,Public Class,com.android.contacts.list.GroupMemberTileAdapter,56,43,9,4,1.0,2.0,0.0,0.0,0.0,7.0,0.0,7.0,7.0,0.0,0.0,3.0,4.0,2.0,0.0,0
+319,2466,Public Class,com.android.contacts.list.JoinContactListAdapter,171,139,26,6,1.0,1.0,0.0,0.0,3.0,16.0,1.0,16.0,16.0,0.0,1.0,5.0,10.0,2.0,87.0,1
+320,2483,Public Class,com.android.contacts.list.JoinContactListFragment,150,120,24,7,1.0,2.0,0.0,0.0,2.0,14.0,3.0,14.0,14.0,0.0,2.0,4.0,8.0,2.0,80.0,0
+321,2484,Anonymous Class,com.android.contacts.list.JoinContactListFragment.(Anon_1),43,39,3,1,1.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+322,2502,Public Class,com.android.contacts.list.JoinContactLoader,60,35,8,17,1.0,1.0,0.0,0.0,0.0,4.0,2.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,50.0,0
+323,2504,Public Static Class,com.android.contacts.list.JoinContactLoader.JoinContactLoaderResult,25,15,2,8,1.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+324,2510,Public Class,com.android.contacts.list.LegacyContactListAdapter,69,55,11,8,1.0,0.0,0.0,0.0,6.0,8.0,1.0,8.0,8.0,0.0,0.0,4.0,4.0,2.0,75.0,1
+325,2519,Public Class,com.android.contacts.list.LegacyPhoneNumberListAdapter,79,63,12,10,1.0,0.0,0.0,0.0,7.0,8.0,1.0,8.0,8.0,0.0,0.0,4.0,4.0,2.0,75.0,1
+326,2528,Public Class,com.android.contacts.list.LegacyPhoneNumberPickerFragment,40,29,7,4,1.0,1.0,0.0,0.0,1.0,6.0,0.0,6.0,6.0,0.0,0.0,5.0,1.0,2.0,0.0,0
+327,2535,Public Class,com.android.contacts.list.LegacyPostalAddressListAdapter,81,65,12,10,1.0,0.0,0.0,0.0,7.0,8.0,1.0,8.0,8.0,0.0,0.0,4.0,4.0,2.0,75.0,1
+328,2571,Public Class,com.android.contacts.list.PostalAddressListAdapter,144,109,21,26,1.0,1.0,0.0,0.0,0.0,10.0,1.0,10.0,10.0,0.0,0.0,6.0,4.0,2.0,80.0,1
+329,2573,Protected Static Class,com.android.contacts.list.PostalAddressListAdapter.PostalQuery,26,24,2,12,1.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1
+330,2583,Public Class,com.android.contacts.list.PostalAddressPickerFragment,62,51,8,3,1.0,3.0,0.0,0.0,0.0,7.0,1.0,7.0,7.0,0.0,1.0,4.0,2.0,2.0,71.0,1
+331,2591,Public Class,com.android.contacts.list.ProviderStatusWatcher,273,176,40,59,1.0,3.0,0.0,2.0,5.0,11.0,8.0,13.0,13.0,0.0,5.0,0.0,8.0,2.0,83.0,0
+332,2592,Anonymous Class,com.android.contacts.list.ProviderStatusWatcher.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+333,2594,Private Class,com.android.contacts.list.ProviderStatusWatcher.LoaderTask,44,39,3,2,1.0,2.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,1.0,3.0,0.0,2.0,0.0,0
+334,2602,Public Static Class,com.android.contacts.list.ProviderStatusWatcher.Status,15,8,2,5,1.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+335,2612,Anonymous Class,com.android.contacts.list.ProviderStatusWatcher.retryUpgrade.(Anon_2),9,9,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0
+336,2619,Public Class,com.android.contacts.model.Contact,447,295,63,95,1.0,3.0,0.0,2.0,0.0,48.0,30.0,50.0,50.0,6.0,1.0,0.0,43.0,1.0,91.0,0
+337,2673,Public Class,com.android.contacts.model.ContactLoader,899,739,88,83,1.0,11.0,0.0,0.0,3.0,24.0,9.0,24.0,24.0,0.0,14.0,3.0,7.0,2.0,87.0,0
+338,2676,Private Static Class,com.android.contacts.model.ContactLoader.ContactQuery,149,134,11,4,1.0,0.0,0.0,0.0,66.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+339,2677,Private Static Class,com.android.contacts.model.ContactLoader.DirectoryQuery,20,16,1,3,1.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+340,2678,Private Static Class,com.android.contacts.model.ContactLoader.GroupQuery,21,20,1,0,1.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+341,2701,Public Class,com.android.contacts.model.ContactLoaderTest,348,274,62,14,1.0,5.0,0.0,0.0,0.0,12.0,2.0,12.0,12.0,0.0,1.0,2.0,9.0,2.0,54.0,0
+342,2702,Class,com.android.contacts.model.ContactLoaderTest.ContactQueries,100,79,19,2,1.0,1.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,2.0,0.0,0.0,1.0,1.0,0.0,0
+343,2708,Anonymous Class,com.android.contacts.model.ContactLoaderTest.setUp.(Anon_1),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+344,2720,Public Class,com.android.contacts.model.RawContact,336,224,52,60,2.0,2.0,0.0,1.0,1.0,33.0,3.0,34.0,34.0,0.0,2.0,0.0,32.0,1.0,83.0,0
+345,2721,Anonymous Class,com.android.contacts.model.RawContact.(Anon_2),11,9,2,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+346,2724,Public Static Class,com.android.contacts.model.RawContact.NamedDataItem,66,44,11,11,2.0,0.0,0.0,0.0,1.0,6.0,2.0,6.0,6.0,0.0,0.0,0.0,6.0,1.0,16.0,0
+347,2725,Anonymous Class,com.android.contacts.model.RawContact.NamedDataItem.(Anon_1),11,9,2,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+348,2768,Public Class,com.android.contacts.model.RawContactDelta,515,326,71,118,2.0,1.0,0.0,2.0,3.0,34.0,3.0,36.0,36.0,0.0,3.0,1.0,32.0,1.0,71.0,0
+349,2769,Anonymous Class,com.android.contacts.model.RawContactDelta.(Anon_1),10,9,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+350,2808,Public Class,com.android.contacts.model.RawContactDeltaList,414,286,50,78,2.0,2.0,0.0,4.0,3.0,21.0,2.0,25.0,25.0,0.0,3.0,1.0,21.0,2.0,76.0,0
+351,2809,Anonymous Class,com.android.contacts.model.RawContactDeltaList.(Anon_1),12,11,1,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+352,2837,Public Class,com.android.contacts.model.RawContactModifier,1353,953,133,268,1.0,9.0,0.0,38.0,8.0,0.0,0.0,38.0,38.0,0.0,11.0,1.0,26.0,1.0,0.0,0
+353,2876,Public Class,com.android.contacts.model.RawContactTest,92,69,20,3,1.0,2.0,0.0,0.0,0.0,11.0,0.0,11.0,11.0,0.0,5.0,0.0,6.0,2.0,0.0,0
+354,2889,Public Class,com.android.contacts.model.dataitem.DataItem,123,83,15,25,1.0,15.0,15.0,1.0,0.0,12.0,1.0,13.0,13.0,0.0,0.0,1.0,12.0,1.0,15.0,0
+355,2903,Public Class,com.android.contacts.model.dataitem.EmailDataItem,26,17,5,5,1.0,0.0,0.0,0.0,0.0,5.0,0.0,5.0,18.0,1.0,0.0,0.0,4.0,2.0,0.0,0
+356,2909,Public Class,com.android.contacts.model.dataitem.EventDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+357,2913,Public Class,com.android.contacts.model.dataitem.GroupMembershipDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+358,2917,Public Class,com.android.contacts.model.dataitem.IdentityDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+359,2921,Public Class,com.android.contacts.model.dataitem.ImDataItem,60,42,11,8,1.0,1.0,0.0,1.0,0.0,9.0,1.0,10.0,23.0,1.0,1.0,0.0,8.0,2.0,60.0,0
+360,2932,Public Class,com.android.contacts.model.dataitem.NicknameDataItem,18,11,3,4,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+361,2936,Public Class,com.android.contacts.model.dataitem.NoteDataItem,14,8,2,5,1.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,15.0,1.0,0.0,0.0,1.0,2.0,0.0,0
+362,2939,Public Class,com.android.contacts.model.dataitem.OrganizationDataItem,46,32,10,5,1.0,0.0,0.0,0.0,0.0,10.0,0.0,10.0,23.0,1.0,0.0,0.0,9.0,2.0,0.0,0
+363,2950,Public Class,com.android.contacts.model.dataitem.PhoneDataItem,54,35,8,12,1.0,0.0,0.0,0.0,1.0,7.0,0.0,7.0,20.0,1.0,0.0,0.0,6.0,2.0,0.0,0
+364,2958,Public Class,com.android.contacts.model.dataitem.PhotoDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+365,2962,Public Class,com.android.contacts.model.dataitem.RelationDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+366,2966,Public Class,com.android.contacts.model.dataitem.SipAddressDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+367,2970,Public Class,com.android.contacts.model.dataitem.StructuredNameDataItem,75,54,17,5,1.0,0.0,0.0,0.0,0.0,17.0,0.0,17.0,30.0,1.0,0.0,0.0,16.0,2.0,0.0,0
+368,2988,Public Class,com.android.contacts.model.dataitem.StructuredPostalDataItem,46,32,10,5,1.0,0.0,0.0,0.0,0.0,10.0,0.0,10.0,23.0,1.0,0.0,0.0,9.0,2.0,0.0,0
+369,2999,Public Class,com.android.contacts.model.dataitem.WebsiteDataItem,18,11,3,5,1.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,16.0,1.0,0.0,0.0,2.0,2.0,0.0,0
+370,3004,Public Class,com.android.contacts.preference.ContactsPreferenceActivity,53,35,6,12,1.0,1.0,0.0,1.0,0.0,4.0,0.0,5.0,5.0,0.0,0.0,2.0,3.0,2.0,0.0,0
+371,3010,Public Class,com.android.contacts.preference.DisplayOptionsPreferenceFragment,13,7,2,4,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+372,3012,Public Class,com.android.contacts.preference.DisplayOrderPreference,65,53,8,5,1.0,0.0,0.0,0.0,0.0,7.0,2.0,7.0,7.0,0.0,1.0,3.0,3.0,2.0,64.0,0
+373,3020,Public Class,com.android.contacts.preference.SortOrderPreference,65,53,8,5,1.0,0.0,0.0,0.0,0.0,7.0,2.0,7.0,7.0,0.0,1.0,3.0,3.0,2.0,64.0,0
+374,3041,Public Class,com.android.contacts.quickcontact.ActionMultiMap,29,17,2,10,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+375,3044,Public Class,com.android.contacts.quickcontact.CheckableImageView,40,29,6,5,2.0,0.0,0.0,0.0,1.0,5.0,1.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,40.0,0
+376,3050,Public Class,com.android.contacts.quickcontact.DataAction,278,216,36,26,2.0,10.0,0.0,0.0,1.0,15.0,13.0,15.0,15.0,0.0,0.0,0.0,15.0,1.0,84.0,1
+377,3066,Public Class,com.android.contacts.quickcontact.FloatingChildLayout,263,181,41,41,1.0,4.0,0.0,2.0,2.0,17.0,8.0,19.0,19.0,0.0,5.0,2.0,12.0,2.0,86.0,0
+378,3071,Anonymous Class,com.android.contacts.quickcontact.FloatingChildLayout.animateScale.(Anon_2),16,16,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+379,3076,Anonymous Class,com.android.contacts.quickcontact.FloatingChildLayout.fadeInBackground.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+380,3092,Public Class,com.android.contacts.quickcontact.QuickContactActivity,681,476,103,120,1.0,19.0,0.0,0.0,9.0,13.0,25.0,13.0,13.0,0.0,10.0,1.0,2.0,2.0,86.0,1
+381,3093,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_1),9,9,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+382,3095,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_12),8,8,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+383,3097,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_13),28,22,2,4,2.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+384,3099,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_13).onItemClicked.(Anon_14),12,11,1,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+385,3102,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_2),18,15,1,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,1
+386,3104,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_9),60,50,6,9,1.0,4.0,0.0,0.0,0.0,3.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,2.0,0.0,0
+387,3107,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_9).onLoadFinished.(Anon_10),10,10,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+388,3109,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.(Anon_9).onLoadFinished.(Anon_10).run.(Anon_11),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+389,3112,Private Class,com.android.contacts.quickcontact.QuickContactActivity.PageChangeListener,33,28,4,1,1.0,2.0,0.0,0.0,0.0,4.0,1.0,4.0,4.0,0.0,1.0,0.0,3.0,2.0,50.0,0
+390,3117,Private Class,com.android.contacts.quickcontact.QuickContactActivity.ViewPagerAdapter,31,28,3,0,1.0,2.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,0.0,0
+391,3123,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.bindData.(Anon_8),20,14,1,5,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+392,3126,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.close.(Anon_5),23,15,0,8,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+393,3128,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.close.(Anon_5).run.(Anon_6),16,10,0,6,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+394,3130,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.close.(Anon_5).run.(Anon_6).run.(Anon_7),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+395,3141,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.onCreate.(Anon_3),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+396,3143,Anonymous Class,com.android.contacts.quickcontact.QuickContactActivity.onCreate.(Anon_4),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+397,3147,Public Class,com.android.contacts.quickcontact.QuickContactBroadcastReceiver,16,11,0,5,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+398,3149,Public Class,com.android.contacts.quickcontact.QuickContactListFragment,160,131,22,7,1.0,1.0,0.0,0.0,0.0,6.0,8.0,6.0,6.0,0.0,1.0,0.0,5.0,2.0,81.0,0
+399,3150,Anonymous Class,com.android.contacts.quickcontact.QuickContactListFragment.(Anon_2),6,6,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+400,3152,Anonymous Class,com.android.contacts.quickcontact.QuickContactListFragment.(Anon_3),6,6,0,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+401,3154,Anonymous Class,com.android.contacts.quickcontact.QuickContactListFragment.(Anon_4),5,5,0,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+402,3161,Anonymous Class,com.android.contacts.quickcontact.QuickContactListFragment.configureAdapter.(Anon_1),86,72,10,4,1.0,2.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,0.0,0
+403,3170,Public Class,com.android.contacts.quickcontact.ResolveCache,198,114,29,55,1.0,3.0,0.0,2.0,2.0,7.0,4.0,9.0,9.0,0.0,2.0,2.0,5.0,1.0,75.0,1
+404,3171,Anonymous Class,com.android.contacts.quickcontact.ResolveCache.(Anon_1),5,5,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+405,3173,Private Static Class,com.android.contacts.quickcontact.ResolveCache.Entry,8,4,0,4,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+406,3184,Public Class,com.android.contacts.test.EmptyFragment,11,7,0,4,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+407,3186,Public Class,com.android.contacts.test.InjectedServices,45,32,8,5,1.0,0.0,0.0,0.0,0.0,6.0,3.0,6.0,6.0,0.0,0.0,0.0,6.0,1.0,66.0,0
+408,3195,Public Class,com.android.contacts.tests.PhoneNumberTestService,86,62,12,12,1.0,0.0,0.0,0.0,3.0,6.0,0.0,6.0,6.0,0.0,4.0,1.0,1.0,2.0,0.0,0
+409,3202,Public Class,com.android.contacts.tests.QueryService,94,68,12,16,1.0,0.0,0.0,1.0,6.0,3.0,0.0,4.0,4.0,0.0,2.0,1.0,1.0,2.0,0.0,0
+410,3208,Public Class,com.android.contacts.tests.allintents.AllIntentsActivity,616,572,29,20,2.0,3.0,0.0,0.0,2.0,14.0,0.0,14.0,14.0,0.0,9.0,3.0,2.0,2.0,0.0,1
+411,3227,Public Class,com.android.contacts.tests.allintents.ResultActivity,153,132,18,3,1.0,0.0,0.0,0.0,0.0,9.0,0.0,9.0,9.0,0.0,8.0,1.0,0.0,2.0,0.0,0
+412,3237,Public Class,com.android.contacts.tests.allintents.SelectAccountDialogFragment,70,49,14,7,1.0,0.0,0.0,1.0,2.0,1.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+413,3242,Anonymous Class,com.android.contacts.tests.allintents.SelectAccountDialogFragment.onCreateDialog.(Anon_1),17,13,4,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+414,3244,Anonymous Class,com.android.contacts.tests.allintents.SelectAccountDialogFragment.onCreateDialog.(Anon_2),10,7,1,2,1.0,2.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+415,3247,Public Class,com.android.contacts.tests.mocks.MockAccountTypeManager,52,42,7,4,1.0,0.0,0.0,0.0,0.0,6.0,2.0,6.0,6.0,0.0,0.0,0.0,6.0,2.0,50.0,0
+416,3254,Public Class,com.android.contacts.tests.mocks.MockContactPhotoManager,42,31,7,4,1.0,0.0,0.0,0.0,0.0,8.0,0.0,8.0,8.0,0.0,0.0,0.0,8.0,2.0,0.0,0
+417,3263,Public Class,com.android.contacts.tests.mocks.MockSharedPreferences,122,97,22,3,3.0,0.0,0.0,0.0,0.0,21.0,2.0,21.0,21.0,0.0,0.0,0.0,21.0,1.0,57.0,0
+418,3286,Public Class,com.android.contacts.tests.quickcontact.QuickContactTestsActivity,82,70,11,1,1.0,0.0,0.0,0.0,3.0,4.0,9.0,4.0,4.0,0.0,1.0,3.0,0.0,2.0,47.0,0
+419,3290,Anonymous Class,com.android.contacts.tests.quickcontact.QuickContactTestsActivity.onCreate.(Anon_1),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+420,3294,Public Class,com.android.contacts.tests.streamitems.StreamItemPopulatorActivity,261,217,26,18,1.0,0.0,0.0,0.0,0.0,10.0,9.0,10.0,10.0,0.0,5.0,5.0,0.0,2.0,88.0,0
+421,3301,Anonymous Class,com.android.contacts.tests.streamitems.StreamItemPopulatorActivity.onCreate.(Anon_1),13,10,1,2,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+422,3303,Anonymous Class,com.android.contacts.tests.streamitems.StreamItemPopulatorActivity.onCreate.(Anon_2),5,5,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+423,3311,Public Class,com.android.contacts.tests.widget.PinnedHeaderUseCaseActivity,60,52,5,3,1.0,0.0,0.0,0.0,3.0,3.0,0.0,3.0,3.0,0.0,1.0,2.0,0.0,2.0,0.0,1
+424,3316,Public Class,com.android.contacts.util.AccountPromptUtils,93,57,8,28,1.0,0.0,0.0,5.0,5.0,0.0,0.0,5.0,5.0,0.0,2.0,0.0,3.0,1.0,0.0,0
+425,3318,Anonymous Class,com.android.contacts.util.AccountPromptUtils.getAccountManagerCallback.(Anon_1),22,21,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+426,3324,Public Class,com.android.contacts.util.CallerInfoCacheUtils,30,8,2,20,1.0,0.0,0.0,1.0,1.0,1.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,1.0,0.0,0
+427,3327,Public Class,com.android.contacts.util.ContactBadgeUtil,83,64,9,10,1.0,1.0,0.0,2.0,1.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0
+428,3330,Public Class,com.android.contacts.util.ContactLoaderUtils,53,28,8,17,1.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,1.0,0.0,0
+429,3333,Public Class,com.android.contacts.util.ContactPhotoUtils,134,94,13,27,1.0,0.0,0.0,10.0,3.0,0.0,0.0,10.0,10.0,0.0,3.0,0.0,7.0,1.0,0.0,1
+430,3344,Public Class,com.android.contacts.util.DataStatus,137,92,26,19,1.0,0.0,0.0,5.0,0.0,10.0,6.0,15.0,15.0,0.0,6.0,0.0,9.0,1.0,82.0,0
+431,3360,Public Class,com.android.contacts.util.DateUtils,241,148,19,74,1.0,0.0,0.0,9.0,3.0,0.0,0.0,9.0,9.0,0.0,2.0,0.0,7.0,1.0,0.0,0
+432,3370,Public Class,com.android.contacts.util.DialogManager,105,57,7,41,1.0,1.0,0.0,1.0,1.0,3.0,2.0,4.0,4.0,0.0,0.0,0.0,4.0,1.0,37.0,0
+433,3378,Anonymous Class,com.android.contacts.util.DialogManager.onCreateDialog.(Anon_1),4,4,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+434,3381,Public Class,com.android.contacts.util.HelpUtils,112,45,15,52,1.0,0.0,0.0,3.0,4.0,1.0,0.0,4.0,4.0,0.0,2.0,0.0,2.0,1.0,75.0,0
+435,3386,Public Class,com.android.contacts.util.HtmlUtils,122,79,13,31,1.0,1.0,0.0,4.0,0.0,0.0,0.0,4.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,0
+436,3387,Public Static Class,com.android.contacts.util.HtmlUtils.StreamItemQuoteSpan,16,11,2,3,1.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+437,3394,Public Class,com.android.contacts.util.HtmlUtilsTest,92,50,17,25,1.0,3.0,0.0,0.0,0.0,6.0,0.0,6.0,6.0,0.0,3.0,0.0,3.0,2.0,0.0,0
+438,3395,Private Static Class,com.android.contacts.util.HtmlUtilsTest.CustomSpan,3,2,0,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0
+439,3402,Public Class,com.android.contacts.util.ImageViewDrawableSetter,117,75,18,24,1.0,1.0,1.0,0.0,1.0,11.0,4.0,11.0,11.0,0.0,3.0,3.0,5.0,1.0,68.0,1
+440,3414,Public Class,com.android.contacts.util.MoreMath,34,17,2,15,1.0,0.0,0.0,3.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+441,3418,Public Class,com.android.contacts.util.NameConverter,136,76,10,50,1.0,0.0,0.0,6.0,1.0,0.0,0.0,6.0,6.0,0.0,2.0,0.0,4.0,1.0,0.0,0
+442,3425,Public Class,com.android.contacts.util.NameConverterTests,72,45,7,20,1.0,1.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,2.0,0.0,2.0,2.0,0.0,0
+443,3430,Public Class,com.android.contacts.util.NotifyingAsyncQueryHandler,42,22,4,16,1.0,1.0,0.0,0.0,0.0,3.0,1.0,3.0,3.0,0.0,0.0,1.0,2.0,2.0,33.0,0
+444,3436,Public Class,com.android.contacts.util.PhoneCapabilityTester,86,50,8,28,1.0,0.0,0.0,8.0,3.0,0.0,0.0,8.0,8.0,0.0,1.0,0.0,7.0,1.0,70.0,1
+445,3445,Public Class,com.android.contacts.util.PhonebookCollatorFactory,9,5,0,4,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+446,3447,Public Class,com.android.contacts.util.SchedulingUtils,29,22,3,4,1.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,1
+447,3449,Anonymous Class,com.android.contacts.util.SchedulingUtils.doAfterDraw.(Anon_2),6,6,0,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+448,3452,Anonymous Class,com.android.contacts.util.SchedulingUtils.doAfterLayout.(Anon_1),7,6,0,1,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+449,3454,Public Class,com.android.contacts.util.StreamItemEntry,164,122,26,16,2.0,3.0,0.0,3.0,0.0,19.0,14.0,22.0,22.0,0.0,4.0,0.0,18.0,1.0,86.0,0
+450,3477,Public Class,com.android.contacts.util.StreamItemEntryBuilder,49,39,7,3,1.0,1.0,0.0,0.0,0.0,7.0,10.0,7.0,7.0,0.0,0.0,0.0,7.0,1.0,78.0,0
+451,3485,Public Class,com.android.contacts.util.StreamItemPhotoEntry,103,80,13,10,2.0,0.0,0.0,3.0,0.0,10.0,7.0,13.0,13.0,0.0,3.0,0.0,10.0,1.0,74.0,0
+452,3499,Public Class,com.android.contacts.util.StructuredPostalUtils,12,10,2,0,1.0,0.0,0.0,2.0,0.0,1.0,0.0,3.0,3.0,0.0,1.0,0.0,2.0,1.0,0.0,1
+453,3503,Public Class,com.android.contacts.util.ThemeUtils,27,13,2,12,1.0,0.0,0.0,3.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,0
+454,3507,Public Class,com.android.contacts.util.UiClosables,19,9,1,9,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0
+455,3510,Public Class,com.android.contacts.widget.AlphaTouchInterceptorOverlay,67,31,10,26,1.0,2.0,0.0,0.0,0.0,5.0,3.0,5.0,5.0,0.0,0.0,0.0,5.0,2.0,46.0,0
+456,3516,Public Class,com.android.contacts.widget.CompositeListAdapter,203,163,32,9,1.0,0.0,0.0,0.0,1.0,14.0,9.0,14.0,14.0,1.0,0.0,3.0,10.0,2.0,73.0,0
+457,3517,Anonymous Class,com.android.contacts.widget.CompositeListAdapter.(Anon_1),13,11,2,0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+458,3534,Public Class,com.android.contacts.widget.CompositeListAdapterTest,293,231,57,5,1.0,3.0,0.0,0.0,0.0,15.0,3.0,15.0,15.0,0.0,0.0,1.0,14.0,2.0,15.0,0
+459,3535,Private Class,com.android.contacts.widget.CompositeListAdapterTest.MockAdapter,38,32,6,0,1.0,1.0,0.0,0.0,0.0,6.0,4.0,6.0,6.0,0.0,1.0,0.0,5.0,2.0,79.0,0
+460,3542,Private Class,com.android.contacts.widget.CompositeListAdapterTest.MockView,6,6,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+461,3544,Private Class,com.android.contacts.widget.CompositeListAdapterTest.TestDataSetObserver,15,12,3,0,1.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,50.0,0
+462,3564,Public Class,com.android.contacts.widget.FrameLayoutWithOverlay,48,25,8,15,1.0,1.0,1.0,0.0,0.0,6.0,1.0,6.0,6.0,0.0,0.0,1.0,5.0,2.0,0.0,1
+463,3571,Public Class,com.android.contacts.widget.FullHeightLinearLayout,29,19,4,6,1.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,0.0,1.0,3.0,2.0,0.0,0
+464,3576,Public Class,com.android.contacts.widget.InterpolatingLayout,289,240,40,9,1.0,1.0,0.0,0.0,0.0,7.0,2.0,7.0,7.0,0.0,0.0,3.0,4.0,2.0,85.0,0
+465,3580,Public Static Class,com.android.contacts.widget.InterpolatingLayout.LayoutParams,136,120,16,0,1.0,0.0,0.0,0.0,0.0,8.0,22.0,8.0,8.0,0.0,0.0,0.0,8.0,2.0,80.0,0
+466,3593,Public Class,com.android.contacts.widget.NotifyingSpinner,33,22,7,4,1.0,1.0,0.0,0.0,0.0,4.0,1.0,4.0,4.0,0.0,0.0,0.0,4.0,2.0,50.0,0
+467,3600,Public Class,com.android.contacts.widget.PinnedHeaderListDemoActivity,111,86,20,5,1.0,1.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,1.0,1.0,0.0,2.0,50.0,0
+468,3601,Public Static Class,com.android.contacts.widget.PinnedHeaderListDemoActivity.TestPinnedHeaderListAdapter,55,46,9,0,1.0,0.0,0.0,0.0,0.0,8.0,2.0,8.0,8.0,0.0,0.0,4.0,4.0,2.0,81.0,0
+469,3612,Anonymous Class,com.android.contacts.widget.PinnedHeaderListDemoActivity.onCreate.(for_loop_2).(Anon_1),6,4,2,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,0.0,0
+470,3614,Public Abstract Class,com.android.contacts.widget.SingleItemAdapter,26,15,5,6,1.0,0.0,0.0,0.0,0.0,5.0,0.0,5.0,5.0,0.0,0.0,1.0,4.0,2.0,0.0,0
+471,3620,Public Abstract Class,com.android.contacts.widget.TextHighlightingAnimation,237,148,39,50,3.0,2.0,1.0,0.0,4.0,9.0,8.0,9.0,9.0,0.0,1.0,3.0,5.0,1.0,75.0,0
+472,3621,Private Static Class,com.android.contacts.widget.TextHighlightingAnimation.DimmingSpan,34,24,4,6,1.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0
+473,3625,Public Class,com.android.contacts.widget.TextHighlightingAnimation.TextWithHighlightingImpl,80,56,15,9,2.0,2.0,0.0,0.0,0.0,11.0,6.0,11.0,11.0,0.0,0.0,0.0,11.0,1.0,78.0,0
+474,3650,Public Class,com.android.contacts.widget.TransitionAnimationView,68,46,6,16,1.0,0.0,0.0,0.0,0.0,6.0,2.0,6.0,6.0,0.0,0.0,1.0,5.0,2.0,66.0,0
